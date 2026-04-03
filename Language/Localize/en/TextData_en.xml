@@ -87,7 +87,7 @@
   <text id="Chokhmah@Name">ทีมบันทึก</text>
   <text id="Chokhmah@LongDesc">แผนกที่ทำการบันทึกทุกสิ่งที่เกิดขึ้นในบริษัท หน้าที่นี้ไม่มีที่สิ้นสุด หน้าสุดท้ายของสมุดบันทึกยังคงว่างเปล่าอยู่เสมอ การจ้างงานและการเลื่อนตำแหน่งของพนักงานถูกตัดสินจากบันทึกและการประเมินของพวกเขา ทำให้พนักงานพยายามสร้างความสัมพันธ์ที่ดีกับทีมบันทึก ไม่มีใครรู้ได้เลยว่า [การลบประวัติ] จะเกิดขึ้นเมื่อใด</text>
   <text id="Story@LogButton">บทพูดคุย</text>
-  <text id="Story@SefiraButton">Sephirot</text>
+  <text id="Story@SefiraButton">เซฟิรอท</text>
   <text id="Story@StartButtonTitle">งานบริหาร</text>
   <text id="Story@StartButtonText">เริ่ม</text>
   <text id="Story@Journal">บันทึกประจำวัน</text>
