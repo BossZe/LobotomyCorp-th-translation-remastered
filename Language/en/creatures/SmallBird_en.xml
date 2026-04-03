@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+
+    <feeling max="100" downProb="0.44" downValue="1">
+      <section feelingValue="50" state="good" energy="0.5"/>
+      <section feelingValue="30" state="normal" energy="0.3"/>
+      <section feelingValue="0" state="bad" energy="-1.3"/>
+    </feeling>
+  -->
+  <info id="100020">
+    <narration action="move">
+      #0 กำลังเดินทางไปยังห้องกักกันของ $0 เพื่อเริ่มกระบวนการทำงาน
+    </narration>
+    
+    <!-- Double Check Narration Start Remove with PM <3 Watson -->
+    <narration action="mid1">
+      [
+        {พนักงานได้นำคอนไม้มาไว้ในห้องกักกันของ $0 เพราะดูเหมือนมันจะเบื่อ},
+        {$0 รู้สึกเหมือนได้กลับไปอยู่ในป่าที่มันเคยอาศัยอยู่เมื่อได้นั่งอยู่บนคอนไม้}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+        {ส่วนใหญ่แล้ว $0 จะทำตัวเหมือนนกธรรมดาตัวอื่นๆ บินไปมาในห้องกักกัน},
+        {$0 ไม่เคยส่งเสียงร้องหรือจิ๊บๆ เลย อย่างไรก็ตาม ท้องของมันจะกระตุกเป็นบางครั้ง}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+        {มีพนักงานเพียงไม่กี่คนเท่านั้นที่รู้เรื่องฟันที่ซ่อนอยู่ของ $0},
+        {ไม่มีใครรู้เรื่องเนื้อที่น่าขยะแขยงของ $0 ซึ่งสามารถแยกออกจากกันได้หลายส่วน}
+      ]
+    </narration>
+  </info>
+  <observe level="2">
+    <collection>
+      <codeNo openLevel="0">O-02-56</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/SmallBird</portrait>
+      <name openLevel="1">
+        Small Bird
+      </name>
+      <name openLevel="2">
+        Punishing Bird
+      </name>
+      <riskLevel openLevel="1">
+        TETH
+      </riskLevel>
+      <specialName openLevel="2">
+        Punishment
+      </specialName>
+      <openText>ผู้คนทำบาปมานานแล้ว “ทำไมพวกเขาถึงทำบาป ทั้งที่รู้ว่ามันผิด?"</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+		[
+		{นกตัวเล็กๆ ที่มั่นใจในตัวเองซึ่งลงโทษคนชั่ว คนที่รู้สึกผิด และคนที่ไม่นับถือพระเจ้าทุกประเภท พนักงานบางคนบอกว่ามันน่ารักเวลาที่มันกระพือปีกเล็กๆ อย่างสง่างาม}
+		]
+	</desc>
+    <desc id="2" openLevel="2">
+		[
+		{ผู้คนทำบาปมานานแล้ว "ทำไมพวกเขาถึงทำบาป ทั้งที่รู้ว่ามันผิด?" นกตัวเล็กๆ สงสัย&#13;&#10;&#13;&#10;"เป็นเพราะไม่มีใครลงโทษความผิดของพวกเขา ถ้ามีใครสักคนมารับบทบาทนั้น การกระทำที่ชั่วร้ายก็จะไม่มีวันเกิดขึ้นในโลกนี้อีกต่อไป!”&#13;&#10;&#13;&#10;ด้วยความคิดนี้ นกตัวน้อยจึงออกจากป่าที่มันเคยอาศัยอยู่ และไม่เคยกลับไปอีกเลย}
+		]
+	</desc>
+    <specialTipSize size="4">
+		<specialTip openLevel="1" key="NoWorking">เมื่อพนักงานเข้าไปในห้องกักกันของ Abnormality อื่น Qliphoth Counter ของ $0 จะลดลง ด้วยความน่าจะเป็นปานกลาง</specialTip>
+		<specialTip openLevel="2" key="PanicOut">เมื่อพนักงานตกอยู่ในอาการคลุ้มคลั่ง Qliphoth Counter ของ $0 จะลดลง</specialTip>
+		<specialTip openLevel="2" key="comebackhome">$0 จะกลับเข้าไปในห้องกักกันเองหลังจากที่พนักงานที่คลุ้มคลั่งกลับมาเป็นปกติ และมันก็กลับไปเองเมื่อเวลาผ่านไปสักระยะ</specialTip>
+		<specialTip openLevel="2" key="NoAccept">มีพนักงานได้รับคำสั่งให้ปราบปราม $0 เมื่อพวกเขาพยายามโจมตีมัน ส่วนท้องของ Abnormality ได้แยกออกจากกันและ &lt;ข้อมูลถูกเซ็นเซอร์&gt; หลังจากนั้นพนักงานคนนั้น ก็ได้รับการยืนยันว่าเสียชีวิต การปราบปรามจบลงด้วยความล้มเหลว</specialTip>
+	</specialTipSize>
+  </observe>
+</creature>

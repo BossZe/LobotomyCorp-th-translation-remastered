@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <text id="continous_service_ability_panic_warning">สำหรับแผนกที่ไม่มีพนักงานอยู่เลย หากตัวนับถอยหลังถึงศูนย์ พนักงานธุรการทุกคนในแผนกนั้นจะเกิดอาการตื่นตระหนก</text>
+  <text id="department_ability">สวัสดิการของแผนก</text>
+  <text id="officer_alive_ability_title">สวัสดิการพนักงาน</text>
+  <text id="continous_service_ability_title">สวัสดิการอายุงาน</text>
+  <text id="continous_service_ability_cur_title">การทำงานใน {0}: {1} วัน</text>
+  <text id="continous_service_ability_cur_title2">{1} วันใน {0};</text>
+  <text id="continous_service_ability_cur_blank"></text>
+  <text id="officer_alive_ability_level_txt">ระดับสวัสดิการพนักงาน: {0}</text>
+  <text id="officer_alive_ability_effect">ผลที่ได้รับ:</text>
+  <text id="officer_alive_ability_zero">หยุดสวัสดิการของแผนก</text>
+  <!--
+  officer_alive_ability_desc_XXX : 사무직 생존 효과 설명
+  continous_service_ability_desc_XXX : 근속 효과 설명
+  officer_alive_ability_cur_XXX : 현재 적용되는 사무직 생존 효과 설명
+  continous_service_ability_cur_XXX : 현재 적용되는 근속 효과 설명
+  -->
+  <text id="officer_alive_ability_desc_malkut">เพิ่มความเร็วการเคลื่อนไหวของพนักงานทุกคน&#13;&#10;(เลเวล 1: +{0} / เลเวล 2: +{1} / เลเวล 3: +{2})</text>
+  <text id="continous_service_ability_desc_malkut">เพิ่มความเร็วการเคลื่อนไหวของพนักงานในแผนก&#13;&#10;(เลเวล 1: +{0} / เลเวล 2: +{1} / เลเวล 3: +{2})</text>
+  <text id="officer_alive_ability_cur_malkut">ปัจจุบันเพิ่มความเร็วการเคลื่อนไหวให้พนักงานทุกคน +{0}</text>
+  <text id="continous_service_ability_cur_malkut">ความเร็วการเคลื่อนไหว +{0}</text>
+  <text id="officer_alive_ability_desc_yesod">เพิ่มอัตราความสำเร็จในการทำงานของพนักงานทุกคน&#13;&#10;(เลเวล 1: +{0} / เลเวล 2: +{1} / เลเวล 3: +{2})</text>
+  <text id="continous_service_ability_desc_yesod">เพิ่มค่า Temperance ให้กับพนักงานในแผนก&#13;&#10;(เลเวล 1: +{0} / เลเวล 2: +{1} / เลเวล 3: +{2})</text>
+  <text id="officer_alive_ability_cur_yesod">ปัจจุบันเพิ่มอัตราความสำเร็จในการทำงานให้พนักงานทุกคน +{0}</text>
+  <text id="continous_service_ability_cur_yesod">Temperance +{0}</text>
+  <text id="officer_alive_ability_desc_netzach">เพิ่มประสิทธิภาพการฟื้นฟูจากอุปกรณ์ฟื้นฟูร่างกายของแผนกทั้งหมด&#13;&#10;(เลเวล 1: +{0}% / เลเวล 2: +{1}% / เลเวล 3: +{2}%)</text>
+  <text id="continous_service_ability_desc_netzach">เพิ่มค่าสถานะ: Fortitude และ Prudence ให้กับพนักงานในแผนก&#13;&#10;(เลเวล 1: +{0} / เลเวล 2: +{1} / เลเวล 3: +{2})</text>
+  <text id="officer_alive_ability_cur_netzach">ปัจจุบันเพิ่มประสิทธิภาพการฟื้นฟู +{0}%</text>
+  <text id="continous_service_ability_cur_netzach">Fortitude และ Prudence +{0}</text>
+  <text id="officer_alive_ability_desc_hod">เพิ่มอัตราการเติบโตของพนักงานทุกคน&#13;&#10;(เลเวล 1: +{0}% / เลเวล 2: +{1}% / เลเวล 3: +{2}%)</text>
+  <text id="continous_service_ability_desc_hod">เพิ่มอัตราการเติบโตของพนักงานในแผนก&#13;&#10;(เลเวล 1: +{0}% / เลเวล 2: +{1}% / เลเวล 3: +{2}%)</text>
+  <text id="officer_alive_ability_cur_hod">ปัจจุบันเพิ่มอัตราการเติบโตของพนักงานทุกคน +{0}%</text>
+  <text id="continous_service_ability_cur_hod">อัตราการเติบโต +{0}%</text>
+  <text id="officer_alive_ability_desc_tiphereth1">เพิ่มเวลาจำกัดของ Meltdown Alarm ในห้องขัง&#13;&#10;(เลเวล 1: +{0} / เลเวล 2: +{1} / เลเวล 3: +{2})</text>
+  <text id="continous_service_ability_desc_tiphereth1">เพิ่มค่าสถานะทั้งหมดให้กับพนักงานในแผนก&#13;&#10;(เลเวล 1: +{0} / เลเวล 2: +{1} / เลเวล 3: +{2})</text>
+  <text id="officer_alive_ability_cur_tiphereth1">ปัจจุบันเพิ่มเวลาจำกัดของ Meltdown Alarm {0} วินาที</text>
+  <text id="continous_service_ability_cur_tiphereth1">ทุกค่าสถานะ +{0}</text>
+  <text id="officer_alive_ability_desc_chesed">เพิ่มจำนวนกระสุนของผู้จัดการทั้งหมด&#13;&#10;(เลเวล 1: +{0} / เลเวล 2: +{1} / เลเวล 3: +{2})</text>
+  <text id="continous_service_ability_desc_chesed">เพิ่มตัวคูณป้องกันของ E.G.O ของพนักงานในแผนก&#13;&#10;(เลเวล 1: +{0}% / เลเวล 2: +{1}% / เลเวล 3: +{2}%)</text>
+  <text id="officer_alive_ability_cur_chesed">ปัจจุบันเพิ่มจำนวนกระสุน +{0}</text>
+  <text id="continous_service_ability_cur_chesed">E.G.O การป้องกัน +{0}%</text>
+  <text id="officer_alive_ability_desc_geburah">เพิ่มความเร็วการโจมตีของพนักงานทุกคน&#13;&#10;(เลเวล 1: +{0} / เลเวล 2: +{1} / เลเวล 3: +{2})</text>
+  <text id="continous_service_ability_desc_geburah">เพิ่มขอบเขตพลังโจมตีของ E.G.O ของพนักงานในแผนก&#13;&#10;(เลเวล 1: +{0}% / เลเวล 2: +{1}% / เลเวล 3: +{2}%)</text>
+  <text id="officer_alive_ability_cur_geburah">ปัจจุบันเพิ่มความเร็วการโจมตี +{0}</text>
+  <text id="continous_service_ability_cur_geburah">E.G.O พลังโจมตี +{0}%</text>
+  <text id="officer_alive_ability_desc_binah">ลดต้นทุนการผลิต E.G.O.&#13;&#10;(เลเวล 1: -{0}% / เลเวล 2: -{1}% / เลเวล 3: -{2}%)</text>
+  <text id="continous_service_ability_desc_binah">เพิ่มความสามารถพลังโจมตีและพลังป้องกันของ E.G.O ของพนักงานในแผนก&#13;&#10;(เลเวล 1: +{0}% / เลเวล 2: +{1}% / เลเวล 3: +{2}%)</text>
+  <text id="officer_alive_ability_cur_binah">ปัจจุบันลดต้นทุนการผลิต E.G.O -{0}%</text>
+  <text id="continous_service_ability_cur_binah">E.G.O พลังโจมตีและพลังป้องกัน +{0}%</text>
+  <text id="officer_alive_ability_desc_chokhmah">เพิ่มค่าสถานะทั้งหมดให้กับพนักงานทุกคน&#13;&#10;(เลเวล 1: +{0} / เลเวล 2: +{1} / เลเวล 3: +{2})</text>
+  <text id="continous_service_ability_desc_chokhmah">เพิ่มค่าสถานะทั้งหมดให้กับพนักงานในแผนก&#13;&#10;(เลเวล 1: +{0} / เลเวล 2: +{1} / เลเวล 3: +{2})</text>
+  <text id="officer_alive_ability_cur_chokhmah">ปัจจุบันเพิ่มค่าสถานะทั้งหมด +{0}</text>
+  <text id="continous_service_ability_cur_chokhmah">ค่าสถานะทั้งหมด +{0}</text>
+  <text id="officer_alive_ability_desc_kether"></text>
+  <text id="continous_service_ability_desc_kether">เพิ่มค่าสถานะทั้งหมดให้กับพนักงานในแผนก&#13;&#10;(เลเวล 1: +{0} / เลเวล 2: +{1} / เลเวล 3: +{2})</text>
+  <text id="officer_alive_ability_cur_kether"></text>
+  <text id="continous_service_ability_cur_kether">ค่าสถานะทั้งหมด +{0}</text>
+  <text id="continous_service_ability_ace">กัปตัน {0}</text>
+</localize>

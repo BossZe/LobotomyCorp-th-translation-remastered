@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+=============== NOTICE ==================
+Changes at 1.26
+  Manual_SubCategory_27
+  Manual_SubCategory_28
+  
+  Manual_Node_5
+  
+  Manual_Node_34
+  
+  Manual_Node_38
+  Manual_Node_39
+  Manual_Node_40
+  Manual_Node_41
+  Manual_Node_42
+  
+  Manual_Text_298
+  Manual_Text_299
+  
+  Manual_Text_355
+  Manual_Text_356
+  
+  Manual_Text_357
+  Manual_Text_358
+  Manual_Text_359
+  
+  Manual_Text_360
+  Manual_Text_361
+  Manual_Text_362
+  Manual_Text_363
+  Manual_Text_364
+  Manual_Text_365
+  Manual_Text_366
+  Manual_Text_367
+  Manual_Text_368
+  
+  Manual_Text_369
+  Manual_Text_370
+  Manual_Text_371
+  Manual_Text_372
+  Manual_Text_373
+  Manual_Text_374
+  Manual_Text_375
+  Manual_Text_376
+  Manual_Text_377
+  
+  Manual_Text_378
+  Manual_Text_379
+  
+  Manual_Text_380
+  Manual_Text_381
+  Manual_Text_382
+  Manual_Text_383
+  Manual_Text_384
+  Manual_Text_385
+  Manual_Text_386
+  Manual_Text_387
+  
+  >end of 1.26 changes
+-->
+<localize>
+  <text id="Manual_MainCategory_0">ข้อมูลพื้นฐาน</text>
+  <text id="Manual_MainCategory_1">ระบบเตรียมการจัดการ</text>
+  <text id="Manual_MainCategory_2">กระบวนการจัดการ</text>
+  <text id="Manual_MainCategory_3">สถานการณ์ฉุกเฉิน</text>
+  <text id="Manual_MainCategory_4">จบการจัดการ</text>
+  <text id="Manual_SubCategory_0">1. เป้าหมายของคุณในฐานะ ผู้จัดการ</text>
+  <text id="Manual_SubCategory_1">2. พนักงาน</text>
+  <text id="Manual_SubCategory_2">3. ประเภทการทำงาน</text>
+  <text id="Manual_SubCategory_3">4. The Abnormalities </text>
+  <text id="Manual_SubCategory_4">5. ประเภทการโจมตี</text>
+  <text id="Manual_SubCategory_5">6. E.G.O </text>
+  <text id="Manual_SubCategory_6">1. UI หน้าเตรียมพร้อม</text>
+  <text id="Manual_SubCategory_7">2. จ้างงาน และ เสริมความแข็งเกร่ง</text>
+  <text id="Manual_SubCategory_8">3. วิธีใช้ E.G.O</text>
+  <text id="Manual_SubCategory_9">4. การจัดสรรพนักงาน </text>
+  <text id="Manual_SubCategory_10">1. UI หน้าการจัดการ</text>
+  <text id="Manual_SubCategory_11">2. การควบคุมขั้นพื้นฐาน</text>
+  <text id="Manual_SubCategory_12">3. การควบคุมพนักงาน</text>
+  <text id="Manual_SubCategory_13">4. การสั่งงาน</text>
+  <text id="Manual_SubCategory_14">5. UI Qliphoth</text>
+  <text id="Manual_SubCategory_15">6. กระบวนการทำงาน</text>
+  <text id="Manual_SubCategory_16">7. The Qliphoth Counter</text>
+  <text id="Manual_SubCategory_17">8. บทลงโทษ</text>
+  <text id="Manual_SubCategory_18">10. การสังเกต Abnormality</text>
+  <text id="Manual_SubCategory_19">11. Abnormalities ประเภทอุปกรณ์</text>
+  <text id="Manual_SubCategory_20">1. เหตุฉุกเฉินที่อาจเกิดขึ้น</text>
+  <text id="Manual_SubCategory_21">2. ระดับฉุกเฉิน</text>
+  <text id="Manual_SubCategory_22">3. การระงับ Abnormalities</text>
+  <text id="Manual_SubCategory_23">4. กระสุนของผู้จัดการ</text>
+  <text id="Manual_SubCategory_24">1. จบการทำงาน</text>
+  <text id="Manual_SubCategory_25">2. พื้นที่เก็บ ข้อมูลหน่วยความจำ</text>
+  <text id="Manual_SubCategory_26">3. การเลือก Abnormality</text>
+  <text id="Manual_SubCategory_27">4. การเปิดและขยายแผนก</text>
+  <text id="Manual_SubCategory_28">9. สวัสดิการของแผนก</text>
+  <text id="Manual_Node_0">ใครคือพนักงาน?</text>
+  <text id="Manual_Node_1">ระดับและการเลื่อนตำแหน่ง</text>
+  <text id="Manual_Node_2">อะไรคือ Abnormality?</text>
+  <text id="Manual_Node_3">ระดับความอันตราย</text>
+  <text id="Manual_Node_4">แผงด้านขวา</text>
+  <text id="Manual_Node_5">ข้อมูลแผนก</text>
+  <text id="Manual_Node_6">การจ้างพนักงาน</text>
+  <text id="Manual_Node_7">การเสริมความแข็งแกร่งให้กับพนักงาน</text>
+  <text id="Manual_Node_8">เข้าหน้า E.G.O List</text>
+  <text id="Manual_Node_9">ข้อมูล E.G.O</text>
+  <text id="Manual_Node_10">E.G.O ยุทโธปกรณ์</text>
+  <text id="Manual_Node_11">E.G.O เครื่องแบบ</text>
+  <text id="Manual_Node_12">วิธีใส่ E.G.O</text>
+  <text id="Manual_Node_13">วิธีส่องข้อมูลพนักงาน</text>
+  <text id="Manual_Node_14">วิธีเคลื่อนย้ายพนักงาน</text>
+  <text id="Manual_Node_15">วิธีเรียกพนักงานกลับ</text>
+  <text id="Manual_Node_16">หน้าต่างคำสั่ง</text>
+  <text id="Manual_Node_17">กดคลิกคำสั่งผ่านหน้าต่าง</text>
+  <text id="Manual_Node_18">สั่งงานผ่านการระบุพนักงาน</text>
+  <text id="Manual_Node_19">ขั้นตอนกระบวนการทำงาน</text>
+  <text id="Manual_Node_20">ตอนเข้าไปทำงานในห้องกักกัน</text>
+  <text id="Manual_Node_21">กระบวนการทำงานขณะทำงาน</text>
+  <text id="Manual_Node_22">หลังจากสิ้นสุดการทำงาน</text>
+  <text id="Manual_Node_23">The Qliphoth Counter</text>
+  <text id="Manual_Node_24">Qliphoth Meltdown หรือห้องพังทะลาย</text>
+  <text id="Manual_Node_25">บททดสอบ</text>
+  <text id="Manual_Node_26">Qliphoth Overloads</text>
+  <text id="Manual_Node_27">วิธีเปิดสารานุกรม Abnormality</text>
+  <text id="Manual_Node_28">การวิเคราะห์ Abnormality</text>
+  <text id="Manual_Node_29">การผลิด E.G.O</text>
+  <text id="Manual_Node_30">อะไรคือ Tool Abnormalities?</text>
+  <text id="Manual_Node_31">วิธีใช้อุปกรณ์</text>
+  <text id="Manual_Node_32">การวิเคราะห์ Tool</text>
+  <text id="Manual_Node_33">การหลบหนีของ Abnormality</text>
+  <text id="Manual_Node_34">เมื่อพนักงานตาย</text>
+  <text id="Manual_Node_35">UI การระงับเหตุ</text>
+  <text id="Manual_Node_36">การควบคุมผ่านหน้าต่างคำสั่ง</text>
+  <text id="Manual_Node_37">การระงับเหตุด้วยการควบคุมผ่านพนักงาน</text>
+  <text id="Manual_Node_38">สารานุกรม Abnormality</text>
+  <text id="Manual_Node_39">ข้อเตือนใจสำหรับการเคลื่อนย้ายพนักงาน</text>
+  <text id="Manual_Node_40">สวัสดิการพนักงาน</text>
+  <text id="Manual_Node_41">สวัสดิการอายุงาน</text>
+  <text id="Manual_Node_42">เมื่อพนักงานเสียสติ</text>
+  <text id="Manual_Text_0">เป้าหมายของคุณในฐานะผู้จัดการ</text>
+  <text id="Manual_Text_1">1. คุณอยู่ในตำแหน่งผู้จัดการของบริษัท Lobotomy Corporation</text>
+  <text id="Manual_Text_2">2. งานของคุณคือการรับมือ Abnormalities อย่างปลอดภัยและผลิตแหล่งพลังงานที่เรียกว่า ‘Enkephalin’</text>
+  <text id="Manual_Text_3">3. คุณจะมีโควตารายวันซึ่งต้องทำสำเร็จในแต่ละวัน เพื่อที่จะดำเนินการต่อในวันถัดไป </text>
+  <text id="Manual_Text_4">ใครคือพนักงาน</text>
+  <text id="Manual_Text_5">เหล่าพนักงานคือลูกน้องของคุณที่คอยทำตามคำสั่งของคุณให้ทำงานกับ Abnormalities พูดง่ายๆก็คือพวกเขาคือมือไม้ของคุณนั่นเอง</text>
+  <text id="Manual_Text_6">ค่าสถานะของพนักงาน</text>
+  <text id="Manual_Text_7">Fortitude&#13;&#10;(ความแข็งแกร่ง)</text>
+  <text id="Manual_Text_8">ค่า ‘HP’ และความแข็งแกร่งของพนักงานจะเพิ่มขึ้นตามระดับ Fortitude ที่เพิ่มขึ้น จะเพิ่มขึ้นทุกครั้งที่พวกเขาทำงานทดสอบสัญชาตญาณ (Instinct)</text>
+  <text id="Manual_Text_9">HP (Health Points):ความแข็งแกร่งทางกายภาพและความมีชีวิตของพนักงาน หากค่านี้ลดลงเหลือศูนย์ พวกเขาจะตาย</text>
+  <text id="Manual_Text_10">Prudence&#13;&#10;(ความรอบรู้)</text>
+  <text id="Manual_Text_11">ค่า 'SP' ของพนักงานจะเพิ่มขึ้นตามระดับ Prudence ที่เพิ่มขึ้น และจะเพิ่มขึ้นทุกครั้งที่พวกเขาทำงานทดสอบสติปัญญา (Insight)</text>
+  <text id="Manual_Text_12">SP (Sanity Points):ความแข็งแกร่งทางจิตใจและความมั่นคงของพนักงาน หากค่านี้ลดลงเหลือศูนย์ พวกเขาจะเกิดอาการตื่นตระหนก</text>
+  <text id="Manual_Text_13">Temperance&#13;&#10;(ความยับยั้งชั่งใจ)</text>
+  <text id="Manual_Text_14">‘ความเร็วในการทำงาน’ และ ‘อัตราความสำเร็จ’ ของพนักงานจะเพิ่มขึ้นตามระดับ Temperance ที่เพิ่มขึ้น และจะเพิ่มขึ้นทุกครั้งที่พวกเขาทำงานทดสอบความผูกพัน (Attachment)</text>
+  <text id="Manual_Text_15">ความเร็วในการทำงาน: อัตราความเร็วในการทำงานให้เสร็จลุล่วง</text>
+  <text id="Manual_Text_16">อัตราความสำเร็จ: โอกาสในการผลิต PE-Box สำเร็จของพนักงาน&#13;&#10;และได้รับความเสียหายจากการทำงานผิดพลาดน้อยลงด้วย</text>
+  <text id="Manual_Text_17">Justice&#13;&#10;(ความยุติธรรม)</text>
+  <text id="Manual_Text_18">‘ความเร็วในการโจมตี’ และ ‘ความเร็วในการเคลื่อนที่’ ของพนักงานจะเพิ่มขึ้นตามระดับ Justice ที่เพิ่มขึ้น และจะเพิ่มขึ้นทุกครั้งที่พวกเขาทำงานทดสอบความอดกลั้น (Repression)</text>
+  <text id="Manual_Text_19">ความเร็วในการโจมตี: อัตราที่พนักงานโจมตีด้วย E.G.O ที่ติดตั้งไว้</text>
+  <text id="Manual_Text_20">ความเร็วในการเคลื่อนที่: ความเร็วที่พนักงานเคลื่อนที่จากสถานที่หนึ่ง&#13;&#10;ไปยังอีกสถานที่หนึ่ง</text>
+  <text id="Manual_Text_21">ระดับและการเลื่อนตำแหน่ง</text>
+  <text id="Manual_Text_22">ระดับของพนักงาน</text>
+  <text id="Manual_Text_23">พนักงานจะเริ่มต้นที่ระดับ 1 และสามารถเลื่อนขั้นได้ถึงระดับ 5 ยิ่งระดับของพนักงานสูงขึ้นทักษะและค่าสถานะที่พวกเขามีก็จะยิ่งมากขึ้น</text>
+  <text id="Manual_Text_24">ค่าสถานะแต่ละอย่างจะมีระดับตั้งแต่ 1 ถึง 5</text>
+  <text id="Manual_Text_25">การเลื่อนขั้นพนักงาน</text>
+  <text id="Manual_Text_26">เมื่อค่าสถานะเพิ่มขึ้นถึงเกณฑ์หนึ่งจากการทำงานระดับ ค่าสถานะของพวกมันจะเพิ่มขึ้นในตอนสรุปผลการทำงาน</text>
+  <text id="Manual_Text_27">ระดับของค่าสถานะจะสอดคล้องกับ ระดับของงานที่เกี่ยวข้องที่พนักงานทำ</text>
+  <text id="Manual_Text_28">ระดับของพนักงานจะขึ้นอยู่กับผลรวมของ ระดับค่าสถานะของพวกเขาระดับของพนักงาน จะเพิ่มขึ้นควบคู่ไปกับค่าสถานะของพวกเขา</text>
+  <text id="Manual_Text_29">ประเภทการทำงาน</text>
+  <text id="Manual_Text_30">มีงาน 4 ประเภทที่สามารถดำเนินการกับ Abnormalities ได้ สำหรับ Abnormalities แต่ละประเภท คุณจะต้องค้นหางานที่เหมาะสมที่สุด และดำเนินการผลิตพลังงานอย่างต่อเนื่อง</text>
+  <text id="Manual_Text_31">&lt;size=30&gt;Instinct&lt;/size&gt;&#13;&#10;&lt;size=10&gt;(ทดสอบสัญชาตญาณ)&lt;/size&gt;</text>
+  <text id="Manual_Text_32">งานที่ต้องสนองความต้องการทางสรีรวิทยา จำเป็นต้องมีการสัมผัสทางกายภาพเนื่องจาก ต้องสัมผัส Abnormalities บ่อยครั้ง พนักงาน จึงจำเป็นต้องแสดงความกล้าหาญและความ อดทนในระดับสูงเพื่อทำงานทดสอบสัญชาตญาณ ระดับสูง พนักงานที่ทำงานนี้จะได้รับประโยชน์จาก&#13;&#10;HP ที่เพิ่มขึ้น</text>
+  <text id="Manual_Text_33">&lt;size=30&gt;Insight&lt;/size&gt;&#13;&#10;(ทดสอบสติปัญญา)</text>
+  <text id="Manual_Text_34">งานเพื่อปรับปรุงสภาพความเป็นอยู่ของ Abnormalities เนื่องจากต้องตระหนักถึงสภาพแวดล้อมที่ Abnormalities แต่ละอย่างเอื้ออำนวยมากที่สุดและปรับเปลี่ยนให้เหมาะสม เพื่อให้ได้สภาพแวดล้อมที่เหมาะสมที่สุดจึงจำเป็นต้อง สังเกตอย่างละเอียดถี่ถ้วนพนักงานต้องแสดงให้เห็นถึงสติ ปัญญาและความรอบคอบในระดับสูงเพื่อปฏิบัติงานเชิงลึกใน ระดับสูง พนักงานที่ปฏิบัติงานนี้จะได้รับประโยชน์จาก SP ที่เพิ่มขึ้น</text>
+  <text id="Manual_Text_35">&lt;size=20&gt;Attachment&lt;/size&gt;&#13;&#10;&lt;size=12&gt;(ทดสอบความผูกพัน)&lt;/size&gt;</text>
+  <text id="Manual_Text_36">งานเพื่อสนองความต้องการทางสังคม Abnormalities&#13;&#10;ทุกอย่างล้วนมีความปรารถนาและเจตจำนงและด้วย&#13;&#10;เหตุนี้จึงรวมเอาความต้องการทางสังคมไว้ด้วยเนื่องจาก&#13;&#10;งานนี้เกี่ยวข้องกับการเล่นเป็นเพื่อนเล่นหรือคู่หูจึง&#13;&#10;จำเป็นต้องใช้ความระมัดระวังอย่างยิ่งเนื่องจาก&#13;&#10;อนุญาตให้มีปฏิสัมพันธ์กันได้จำกัดเพื่อหลีกเลี่ยง&#13;&#10;การทำเกินขอบเขตพนักงานจำเป็นต้องแสดงความ&#13;&#10;ระมัดระวังและความพอประมาณในระดับสูงใน&#13;&#10;การทำงานด้านความผูกพันระดับสูง พนักงานที่&#13;&#10;ทำงานนี้จะได้รับประโยชน์จากความเร็ว และ อัตราความสำเร็จที่เพิ่มขึ้น</text>
+  <text id="Manual_Text_37">&lt;size=20&gt;Repression&lt;/size&gt;&#13;&#10;&lt;size=12&gt;(ทดสอบความอดกลั้น)&lt;/size&gt;</text>
+  <text id="Manual_Text_38">งานที่ต้องจำกัดการดำรงอยู่ในขณะที่งานอื่นๆ&#13;&#10;มุ่งเน้นไปที่การจัดการกับความปรารถนาแต่&#13;&#10;งานนี้กลับปิดกั้นความปรารถนาเหล่านั้นเนื่อง&#13;&#10;จากงานนี้เกี่ยวข้องกับการควบคุมอารมณ์และ&#13;&#10;ความปรารถนาต่างๆการตัดสินใจอย่างรอบคอบ&#13;&#10;และเป็นกลางรวมถึงการใช้เหตุผลอย่างมีเหตุผล&#13;&#10;จึงเป็นสิ่งจำเป็นในการควบคุมจังหวะของงาน &#13;&#10;พนักงานต้องแสดงให้เห็นถึงความยุติธรรมในระดับสูง &#13;&#10;ซึ่งก็คือความสามารถในการตัดสินใจอย่างแน่วแน่ &#13;&#10;เพื่อทำงานทดสอบความอดกลั้นระดับสูง พนักงานที่ปฏิบัติงานนี้&#13;&#10;จะได้รับประโยชน์จากความเร็วในการโจมตีและ&#13;&#10;การเคลื่อนที่ที่เพิ่มขึ้น</text>
+  <text id="Manual_Text_39">อะไรคือ Abnormality?</text>
+  <text id="Manual_Text_40">"สิ่งผิดปกติ" เป็นสิ่งมีชีวิตที่ผุดขึ้นมาจากห้วงฝันอันลึกซึ้งและโบราณของมนุษยชาติ ซึ่งก็คือจิตไร้สำนึกร่วมกัน เราสามารถสกัดสาร Enkephalin ได้จากพวกมัน ด้วยการรับมืออย่างระมัดระวังและเหมาะสม</text>
+  <text id="Manual_Text_41">ระดับความอันตราย</text>
+  <text id="Manual_Text_42">โปรดทราบว่าไม่มี Abnormality ใดที่สามารถถือว่าปลอดภัยได้อย่างแท้จริง</text>
+  <text id="Manual_Text_43">โปรดดูหัวข้อระดับความเสี่ยงด้านล่างเมื่อจัดการความผิดปกติ</text>
+  <text id="Manual_Text_44">หน่วยกักเก็บหรือห้องกักกัน</text>
+  <text id="Manual_Text_45">สารานุกรม Abnormality</text>
+  <text id="Manual_Text_46">ด้วยความก้าวร้าวเพียงเล็กน้อยหรือแทบไม่มีเลย Abnormality แบบ ZAYIN จะสร้างความเสียหาย น้อยที่สุดต่อพนักงานของคุณ ความเสียหายจาก Abnormality เหล่านี้มักจะเล็กน้อย และอาจส่งผลดีต่อพนักงาน</text>
+  <text id="Manual_Text_47">Abnormality เหล่านี้อาจสร้างความเสียหาย ให้กับพนักงานของคุณได้ในระดับที่แตกต่างกัน อย่างไรก็ตาม ตราบใดที่พนักงานของคุณ ปฏิบัติตามแนวทางการรับมือที่เหมาะสม ความเสียหายเหล่านี้จะไม่เกิดขึ้นมากนัก</text>
+  <text id="Manual_Text_48">Abnormality ของคลาสนี้สามารถฆ่าพนักงาน ได้หลายคนอย่างง่ายดายคุณจะต้องใส่ใจมากกว่า ZAYIN หรือ TETH ถึงสองเท่าหากสถานการณ์ ผิดพลาดพนักงานหลายคนอาจต้องสูญเสีย เลือดเนื้อไปไม่ต้องกังวลเพราะด้วยการบริหาร จัดการที่ยอดเยี่ยมของคุณพวกเขาจะควบคุม ทุกอย่างได้</text>
+  <text id="Manual_Text_49">สิ่งเหล่านี้มีความเสี่ยงสูงและมีพลังทำลายล้างสูง ส่วนใหญ่จะมีความเป็นปฏิปักษ์ต่อพนักงาน และอาจมีจำนวนผู้เสียชีวิตหลายสิบคน</text>
+  <text id="Manual_Text_50">&lt;b&gt;อันตรายที่สุด&lt;/b&gt; คุณควรทุ่มเทสมาธิและความสนใจ ให้มากที่สุดเท่าที่จะทำได้กับระดับความเสี่ยงนี้ คุณจะรู้สึกขอบคุณหากสามารถระงับ Abnormality ได้โดยไม่ต้องทำลายแผนกทั้งหมด &lt;i&gt;(โปรดอย่าคิดว่าคำเตือนของเราเป็นการพูดเกินจริง)&lt;/i&gt;</text>
+  <text id="Manual_Text_51">ประเภทการโจมตี</text>
+  <text id="Manual_Text_52">The Abnormalities มีการโจมตีอยู่ 4 ประเภท:</text>
+  <text id="Manual_Text_53">RED&#13;&#10;(สีแดง)</text>
+  <text id="Manual_Text_54">ประเภทนี้เกี่ยวข้องกับความเสียหายทางกายภาพ สีแดงหมายถึงความเสียหายทางกายภาพ เมื่อ สร้างความเสียหาย RED จะสร้างดาเมจให้แก่ HP</text>
+  <text id="Manual_Text_55">WHITE&#13;&#10;(สีขาว)</text>
+  <text id="Manual_Text_56">สีขาวหมายถึงความเสียหายทางจิตใจ เมื่อสร้างความเสียหายด้วย WHITE จะสร้างดาเมจให้แก่ SP </text>
+  <text id="Manual_Text_57">BLACK&#13;&#10;(สีดำ)</text>
+  <text id="Manual_Text_58">ความเสียหายที่ซับซ้อนทั้งทางร่างกายและจิตใจ เมื่อสร้างความเสียหายแบบ BLACK จะสร้างดาเมจให้ทั้ง HP และ SP </text>
+  <text id="Manual_Text_59">PALE&#13;&#10;(สีซีด)</text>
+  <text id="Manual_Text_60">ซีดเซียวมันคือสีแห่งความตาย แม้แต่ ร่างกายที่แข็งแกร่งที่สุดและจิตใจ ที่เข้มแข็งที่สุดก็ไม่มีความหมายทุกคน เท่าเทียมกันเมื่อเผชิญหน้ากับ ความตายเมื่อสร้างความเสีย หายแบบ PALE จะสร้างดาเมจให้ HP ในรูปแบบ HP%</text>
+  <text id="Manual_Text_61">E.G.O</text>
+  <text id="Manual_Text_62">E.G.O (Extermination of Geometrical Organ) หมายถึงอุปกรณ์ที่ผลิตขึ้นเพื่อเผชิญหน้ากับ Abnormalities</text>
+  <text id="Manual_Text_63">เรามีอาวุธ E.G.O เพื่อใช้โจมตี และชุด E.G.O เพื่อใช้ป้องกัน</text>
+  <text id="Manual_Text_64">สามารถสกัด E.G.O ได้จาก Abnormalities ที่ผ่านวิเคราะห์จนถึงระดับการสังเกตการณ์ระดับสูง</text>
+  <text id="Manual_Text_65">เนื่องจาก E.G.O ถูกสร้างขึ้นโดยใช้ "ต้นแบบ" ที่สกัดมาจาก Abnormalities จึงสามารถสร้างหรือต้านทานความเสียหายประเภทสี RWBP ได้ ซึ่งไม่สามารถสร้างซ้ำได้ตามปกติ</text>
+  <text id="Manual_Text_66">E.G.O แต่ละตัวมีเกรดตั้งแต่ ZAYIN ถึง ALEPH สิ่งหนึ่งที่คุณควรรู้คือ ยิ่งเกรด E.G.O สูงเท่าไหร่ ก็ยิ่งมีพลังโจมตีและป้องกันที่สูงมาเท่านั้น</text>
+  <text id="Manual_Text_67">กลไก ATK - DEF</text>
+  <text id="Manual_Text_68">E.G.O ที่มีเกรดสูงจะสร้างความเสียหายได้มากกว่าและได้รับความเสียหายน้อยกว่า เมื่อเผชิญกับ Abnormalities ที่มีระดับความเสี่ยงต่ำกว่า</text>
+  <text id="Manual_Text_69">ในทางกลับกัน E.G.O ที่มีเกรดต่ำจะสร้างความเสียหายได้น้อยกว่าแต่ได้รับความเสียหายมากกว่า เมื่อเผชิญกับ Abnormalities ที่มีระดับความเสี่ยงสูงกว่า</text>
+  <text id="Manual_Text_70">Deployment UI</text>
+  <text id="Manual_Text_71">แผงด้านขวา</text>
+  <text id="Manual_Text_72">หน้าต่างดูระดับบททดสอบ</text>
+  <text id="Manual_Text_73">ตรงนี่คุณจะสามารถดูระดับสูงสุด ของการทดสอบที่อาจปรากฏขึ้น ในระหว่างวันทำงานวันนี้</text>
+  <text id="Manual_Text_74">ความยากลำบากจะปรากฏให้เห็น เมื่อถึงเวลาที่กำหนด</text>
+  <text id="Manual_Text_75">LOB Point</text>
+  <text id="Manual_Text_76">LOB คือหน่วยที่คุณจะได้รับ เมื่อคุณทำภารกิจเสร็จสิ้นในแต่ละวัน</text>
+  <text id="Manual_Text_77">LOB ใช้ในการจ้างและเสริม ความแข็งแกร่งให้พนักงาน</text>
+  <text id="Manual_Text_78">ปุ่ม E.G.O List</text>
+  <text id="Manual_Text_79">ปุ่มนี้จะเปิดรายการ E.G.O</text>
+  <text id="Manual_Text_80">Hire</text>
+  <text id="Manual_Text_81">ปุ่มนี้ใช้สำหรับจ้างพนักงานใหม่</text>
+  <text id="Manual_Text_82">ข้อมูลแผนก</text>
+  <text id="Manual_Text_83">ภารกิจ</text>
+  <text id="Manual_Text_84">แต่ละแผนกจะแสดงภารกิจที่ สามารถทำได้ในวันนั้น</text>
+  <text id="Manual_Text_85">หากคุณผ่านภารกิจของแผนกแล้ว คุณจะสามารถดำเนินโครงการวิจัยเฉพาะทางได้</text>
+  <text id="Manual_Text_86">ห้องกักกัน Abnormalities</text>
+  <text id="Manual_Text_87">ที่นี่คุณจะเห็น Abnormalities มีภายในแผนกตอนนี้</text>
+  <text id="Manual_Text_88">Abnormalities ที่สารานุกรมยังไม่ได้ปลดล็อคข้อมูลพื้นฐาน จะแสดงเป็นเครื่องหมายคำถาม (?)</text>
+  <text id="Manual_Text_89">คำอธิบายแผนก</text>
+  <text id="Manual_Text_90">ปุ่มนี้จะช่วยให้คุณดูคำอธิบายและ บทบาทที่เกี่ยวข้องกับแผนกและทีม</text>
+  <text id="Manual_Text_91">การวิจัย</text>
+  <text id="Manual_Text_92">ปุ่มนี้จะช่วยให้คุณดูโครงการวิจัย ที่เสร็จสิ้นแล้วของแผนกได้</text>
+  <text id="Manual_Text_93">การวิจัยจะเป็นประโยชน์อย่างมาก สำหรับการรับมือ Abnormalities</text>
+  <text id="Manual_Text_94">รับสมัครพนักงาน</text>
+  <text id="Manual_Text_95">คุณสามารถจ้างพนักงานใหม่ ได้โดยคลิกปุ่มจ้าง</text>
+  <text id="Manual_Text_96">หากต้องการจ้างพนักงานสุ่มเริ่มต้น เพียงคลิกปุ่มจ้างอีกครั้ง</text>
+  <text id="Manual_Text_97">พนักงานปกติต้องการเพียง LOB 1 หน่วยเท่านั้นในการจ้าง</text>
+  <text id="Manual_Text_98">การเปลี่ยนแปลงระดับค่าสถานะ</text>
+  <text id="Manual_Text_99">คุณสามารถปรับระดับค่าสถานะแต่ละ อย่างได้โดยการคลิกที่ลูกศร</text>
+  <text id="Manual_Text_100">จะมีการเรียกเก็บค่า LOB เพิ่มเติมสำหรับการยกระดับค่าสถานะ</text>
+  <text id="Manual_Text_101">ยิ่งระดับค่าสถานะที่สูงขึ้นจะต้องใช้ LOB มากขึ้นตาม</text>
+  <text id="Manual_Text_102">การปรับแต่งหน้าตา</text>
+  <text id="Manual_Text_103">คุณสามารถใช้เงินเพิ่มอีก 1 LOB เพื่อปรับแต่งหน้าตาของพนักงานใหม่ได้</text>
+  <text id="Manual_Text_104">การเสริมความแข็งแกร่งให้กับพนักงาน</text>
+  <text id="Manual_Text_105">พนักงานที่เป็นส่วนหนึ่งของ การทำงานของคุณอยู่แล้ว ดังนั้นสามารถเสริมความแข็งแกร่ง ของพวกเขาโดยใช้ LOB ได้โดยคลิกปุ่มนี้</text>
+  <text id="Manual_Text_106">สามารถคลิกพนักงานที่ปรับใช้ และไม่ได้ปรับใช้เพื่อดูข้อมูลเพิ่มเติม</text>
+  <text id="Manual_Text_107">การเสริมความแข็งแกร่งให้กับ พนักงานที่ได้รับการจ้างแล้วจะใช้ เมนูเดียวกับการปรับระดับค่าสถานะ ของพนักงานที่ได้รับการจ้างใหม่</text>
+  <text id="Manual_Text_108">เปิดหน้า E.G.O List</text>
+  <text id="Manual_Text_109">คุณสามารถเปิดรายการ E.G.O ได้โดยเพียงคลิกที่ปุ่มที่เกี่ยวข้อง</text>
+  <text id="Manual_Text_110">E.G.O ยุทโธปกรณ์</text>
+  <text id="Manual_Text_111">E.G.O อาวุธคืออุปกรณ์ที่ช่วยเพิ่มความสามารถในการโจมตี</text>
+  <text id="Manual_Text_112">ประเภทการโจมตี</text>
+  <text id="Manual_Text_113">บอกประเภทสีของแต่ละ E.G.O</text>
+  <text id="Manual_Text_114">ดาเมจ</text>
+  <text id="Manual_Text_115">ช่วงค่าโจมตีที่เป็นไปได้ที่ E.G.O สามารถสร้างได้</text>
+  <text id="Manual_Text_116">ความเร็ว</text>
+  <text id="Manual_Text_117">ความเร็วในการออกท่าโจมตี</text>
+  <text id="Manual_Text_118">ระยะการโจมตี</text>
+  <text id="Manual_Text_119">บอกระยะทางการโจมตีของ E.G.O นั้น</text>
+  <text id="Manual_Text_120">E.G.O เครื่องแบบ</text>
+  <text id="Manual_Text_121">E.G.O ชุดเป็นอุปกรณ์ที่ช่วยเพิ่มความสามารถ ในการป้องกันตัว</text>
+  <text id="Manual_Text_122">ค่าป้องกันจะแสดงผลเป็นค่าตัวคูณ กับดาเมจของประเภทการโจมตีนั้น</text>
+  <text id="Manual_Text_123">ถ้าผลคูณมีค่าน้อยกว่า 1 ดาเมจที่ได้รับก็จะน้อยลง</text>
+  <text id="Manual_Text_124">ทำนองเดียวกัน ถ้าผลคูณมีค่ามากกว่า 1 ดาเมจที่ได้รับก็จะมากขึ้น</text>
+  <text id="Manual_Text_125">ข้อมูล E.G.O</text>
+  <text id="Manual_Text_126">การจัดระดับ E.G.O</text>
+  <text id="Manual_Text_127">คุณสามารถดู E.G.O ของเกรดที่ต้องการได้ โดยคลิกที่แท็บที่ตรงกับเกรดนั้น</text>
+  <text id="Manual_Text_128">รายละเอียด</text>
+  <text id="Manual_Text_129">นี่จะแสดงคำอธิบายโดยละเอียดและ ความสามารถพิเศษของ E.G.O</text>
+  <text id="Manual_Text_130">ข้อกำหนด</text>
+  <text id="Manual_Text_131">E.G.O. บางตัวอาจต้องการระดับค่าสถานะ หรือระดับพนักงานที่เหมาะสม</text>
+  <text id="Manual_Text_132">E.G.O Gifts</text>
+  <text id="Manual_Text_133">พนักงานมีโอกาสที่จะได้รับ E.G.O ในรูปแบบนี้เมื่อเสร็จสิ้นกระบวนการทำงานหรือบางครั้ง อาจผ่านเกณฑ์พิเศษซึ่งจะส่งผลต่อค่าสถานะต่างๆ ของพนักงาน</text>
+  <text id="Manual_Text_134">การติดตั้ง E.G.O</text>
+  <text id="Manual_Text_135">เลือกระดับชั้นสิ่งก่อสร้าง</text>
+  <text id="Manual_Text_136">เลือกพนักงานที่ต้องการ</text>
+  <text id="Manual_Text_137">คลิกที่ช่อง E.G.O จะไม่สามารถติดตั้งได้ หากพนักงานไม่ตรงตามข้อกำหนด</text>
+  <text id="Manual_Text_138">ที่นี่คุณจะสามารถเห็น E.G.O ที่พนักงานได้ติดตั้งไว้ในปัจจุบัน</text>
+  <text id="Manual_Text_139">การจัดสรรพนักงาน</text>
+  <text id="Manual_Text_140">คลิกและกดค้างไว้ที่พนักงาน</text>
+  <text id="Manual_Text_141">ลากและวางพนักงานลงใน แผนกที่คุณต้องการบรรจุ</text>
+  <text id="Manual_Text_142">Management UI</text>
+  <text id="Manual_Text_143">โควต้า PE-Box</text>
+  <text id="Manual_Text_144">เพื่อให้ครบหนึ่งวันคุณต้องรวบรวม E-Box ให้ครบตามจำนวนที่กำหนดหลอดนี้จะเต็ม ทุกครั้งที่ผลิต PE-Box หลังจากเสร็จสิ้นกระบวน การทำงานกับ Abnormalities</text>
+  <text id="Manual_Text_145">หลอด Qliphoth Meltdown</text>
+  <text id="Manual_Text_146">หลอดนี้คาดการณ์การล่มสลายของ Qliphoth ครั้งต่อไปที่จะ เกิดขึ้นโดยแสดงระยะเวลาที่ผ่านไปตลอดช่วงการล่มสลาย และบททดสอบต่างๆของ Qliphoth ในแต่ละวันทำงาน ทุกครั้งที่พนักงานเข้าไปทำงานหลอดนี้จะเพิ่มขึ้น 1 หน่วยหากหลอดเต็มจะเกิดการ Qliphoth Meltdown &#13;&#10;หรือมีบททดสอบจะปรากฏขึ้น</text>
+  <text id="Manual_Text_147">รายการภารกิจ</text>
+  <text id="Manual_Text_148">นี่คือรายการภารกิจที่สามารถทำได้&#13;&#10;ในระหว่างวันทำงาน</text>
+  <text id="Manual_Text_149">การปรับความเร็ว</text>
+  <text id="Manual_Text_150">ปุ่มเหล่านี้ใช้หยุดชั่วคราวและความเร็วของเวลาในโรงงานได้</text>
+  <text id="Manual_Text_151">บันทึกการทำงาน</text>
+  <text id="Manual_Text_152">ซึ่งจะแสดงประวัติการทำงานที่ได้ทำในระหว่างวัน พร้อมทั้งความสูญเสียและอาการเสียขวัญ</text>
+  <text id="Manual_Text_153">หลอดฟื้นฟูของแผนก</text>
+  <text id="Manual_Text_154">เมื่อใดก็ตามที่เกจนี้เต็ม HP และ SP ของพนักงาน ในห้องหลักของแผนกจะถูกฟื้นฟูอย่างไรก็ตาม เกจนี้จะไม่ทำงานหากมีความผิดปกติเกิดขึ้นในห้อง</text>
+  <text id="Manual_Text_155">การควบคุมพื้นฐาน</text>
+  <text id="Manual_Text_156">การควบคุมกล้อง</text>
+  <text id="Manual_Text_157">คุณสามารถใช้ปุ่มเมาส์ขวาเพื่อคลิก และลากตำแหน่งของกล้อง</text>
+  <text id="Manual_Text_158">ปุ่ม WASD สามารถใช้เพื่อเลื่อนกล้อง ไปยังตำแหน่งที่สอดคล้องกันได้</text>
+  <text id="Manual_Text_159">สามารถซูมกล้องเข้าและออกได้ด้วย ล้อเลื่อนของเมาส์ (สามารถใช้ปุ่ม F และ G ได้เช่นกัน)</text>
+  <text id="Manual_Text_160">ปุ่มปรับเวลา</text>
+  <text id="Manual_Text_161">เวลาช้าลงปุ่ม : Q</text>
+  <text id="Manual_Text_162">เร่งเวลาปุ่ม : E</text>
+  <text id="Manual_Text_163">หยุดเวลาปุ่ม : SPACEBAR  </text>
+  <text id="Manual_Text_164">พนักงานยังสามารถรับคำสั่งได้ในขณะที่เวลาหยุดนิ่ง และจะติดตามคำสั่งเมื่อเวลากลับมาดำเนินการอีกครั้ง</text>
+  <text id="Manual_Text_165">วิธีส่องข้อมูลพนักงาน</text>
+  <text id="Manual_Text_166">คุณสามารถดูข้อมูลของพนักงาน ได้โดยเลื่อนเมาส์ไปวางเหนือพนักงานนั้นๆ หากคุณคลิกที่พนักงานนั้น UI ที่แสดงข้อมูล&#13;&#10;จะติดอยู่จนกว่าคุณจะคลิกรายการอื่น</text>
+  <text id="Manual_Text_167">เคลื่อนย้ายพนักงาน</text>
+  <text id="Manual_Text_168">คลิกพนักงานที่คุณต้องการย้าย หากคุณต้องการย้ายกลุ่มพนักงาน ให้คลิกและลากเพื่อเลือก</text>
+  <text id="Manual_Text_169">เมื่อเลือกกลุ่มพนักงานแล้ว ให้คลิกขวาที่ตำแหน่งที่ต้องการให้พนักงานย้ายไป</text>
+  <text id="Manual_Text_170">วิธีเรียกพนักงานกลับ</text>
+  <text id="Manual_Text_171">ปุ่มนี้จะเรียกพนักงานที่ไม่อยู่ในห้องหลักของแผนกกลับมา (ต้องปลดล็อคฟังก์ชันนี้ผ่านงานวิจัยทีมควบคุม)</text>
+  <text id="Manual_Text_172">UI หน้าต่างคำสั่ง</text>
+  <text id="Manual_Text_173">ระดับอันตราย Abnormality</text>
+  <text id="Manual_Text_174">จำนวนสูงสุดของ E-Box ที่สามารถผลิตได้ต่อหนึ่งครั้ง</text>
+  <text id="Manual_Text_175">ผลลัพธ์การทำงาน ที่แตกต่างกันตามจำนวน PE-Box</text>
+  <text id="Manual_Text_176">ประเภทการโจมตีและปริมาณความเสียหายในระหว่างการทำงาน</text>
+  <text id="Manual_Text_177">รายชื่อพนักงานในแผนกนี้ (หากต้องการให้พนักงานทำงาน ในแผนกอื่นนอกเหนือจากแผนกของตนเอง จำเป็นต้องทำงานวิจัยทีมควบคุมให้เสร็จสิ้น)</text>
+  <text id="Manual_Text_178">ข้อมูลพนักงาน</text>
+  <text id="Manual_Text_179">ความเป็นไปได้ในการผลิต PE-Boxes</text>
+  <text id="Manual_Text_180">จำนวนเวลาที่พนักงาน ใช้ในการทำงานให้เสร็จ</text>
+  <text id="Manual_Text_181">กดคลิกคำสั่งผ่านหน้าต่าง</text>
+  <text id="Manual_Text_182">1: คลิกซ้ายบนห้องกักกัน</text>
+  <text id="Manual_Text_183">2: เลือกประเภทงาน</text>
+  <text id="Manual_Text_184">3: เลือกพนักงาน</text>
+  <text id="Manual_Text_185">สั่งงานผ่านการระบุพนักงาน</text>
+  <text id="Manual_Text_186">1: คลิกและลากเลือกเป็นกลุ่ม</text>
+  <text id="Manual_Text_187">2: คลิกขวาที่ห้องกักกัน</text>
+  <text id="Manual_Text_188">3: เลือกประเภทงาน</text>
+  <text id="Manual_Text_189">4: เลือกพนักงานจากในกลุ่มนั้น</text>
+  <text id="Manual_Text_190">UI Qliphote</text>
+  <text id="Manual_Text_191">ระดับความอันตราย</text>
+  <text id="Manual_Text_192">Qliphoth Counter</text>
+  <text id="Manual_Text_193">จำนวน unique PE-Boxes ในปัจจุบัน</text>
+  <text id="Manual_Text_194">PE-Boxes ที่ผลิตในงานก่อนหน้านี้</text>
+  <text id="Manual_Text_195">ขั้นตอนกระบวนการทำงาน</text>
+  <text id="Manual_Text_196">เมื่องานดำเนินไป the Abnormality จะก่อให้เกิด PE-Box (กล่องเอนเคฟาลินบวก) หรือ NE-Box (กล่องเอนเคฟาลินลบ) มีเพียง PE-Box เท่านั้นที่สามารถกลั่นและแปรรูปเป็นพลังงานได้</text>
+  <text id="Manual_Text_197">เป้าหมายของคุณในฐานะผู้จัดการคือการค้นหาวิธีผลิต PE-Box ให้ได้มากที่สุดอย่างปลอดภัยจาก the Abnormalities</text>
+  <text id="Manual_Text_198">วิธีการที่เราทำเช่นนั้นค่อนข้างง่าย:</text>
+  <text id="Manual_Text_199">เข้าไปในห้องกักกัน</text>
+  <text id="Manual_Text_200">ระหว่างการทำงาน</text>
+  <text id="Manual_Text_201">การสิ้นสุดการทำงาน</text>
+  <text id="Manual_Text_202">เข้าไปในห้องกักกัน</text>
+  <text id="Manual_Text_203">หลังจากได้รับคำสั่งจากผู้จัดการ พนักงานจะดำเนินการไปยังห้องกักกันที่กำหนด</text>
+  <text id="Manual_Text_204">ทุกครั้งที่พนักงานเข้าสู่ห้องกักกัน หลอด Qliphoth Meltdown จะเพิ่มขึ้น 1 หน่วย หากคุณต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับหลอดนี้ โปรดดูหัวข้อเกี่ยวกับ Qliphoth Meltdown</text>
+  <text id="Manual_Text_205">โปรดทราบไว้ว่า Abnormality บางตัวอาจโจมตีทันทีเมื่อพนักงานเข้าสู่ห้องกักกันหากไม่ปฏิบัติตามแนวทางการรับมือ</text>
+  <text id="Manual_Text_206">ดาเมจความกลัว</text>
+  <text id="Manual_Text_207">เมื่อพนักงานพบกับ Abnormality พวกเขาอาจเกิดความกลัว ส่งผลให้เกิดความเสียหายทางจิตใจในระดับหนึ่ง</text>
+  <text id="Manual_Text_208">Abnormalities ที่มีระดับความอันตราสูง จะสร้างความเสียหายทางจิตใจให้กับพนักงานที่มีระดับต่ำกว่าแรงขึ้น</text>
+  <text id="Manual_Text_209">ความเสียหายทางจิตใจนี้จะเกิดขึ้นระหว่างการเผชิญหน้ากับ Abnormalities ที่หลุดจากห้องกักกันของพวกมันด้วย</text>
+  <text id="Manual_Text_210">ระหว่างการทำงาน</text>
+  <text id="Manual_Text_211">อัตราความสำเร็จ</text>
+  <text id="Manual_Text_212">Abnormalities แต่ละอย่างจะมีอัตราความสำเร็จที่แตกต่างกันสำหรับประเภทงานที่แตกต่างกัน ดังนั้น ผลลัพธ์ของกระบวนการทำงานอาจเปลี่ยนแปลงไป ขึ้นอยู่กับประเภทงานที่เลือก</text>
+  <text id="Manual_Text_213">อัตราความสำเร็จจะถูกกำหนดโดยระดับค่าสถานะที่สอดคล้องกับประเภทของงานที่ทำควบคู่ไปกับอัตราความสำเร็จของพนักงาน (Temperance)</text>
+  <text id="Manual_Text_214">อัตราความสำเร็จจะกำหนดว่าจะผลิต PE-Box หรือ NE-Box</text>
+  <text id="Manual_Text_215">ความสำเร็จและความล้มเหลวในกระบวนการทำงาน</text>
+  <text id="Manual_Text_216">ถ้าเกิดว่าสำเร็จ…</text>
+  <text id="Manual_Text_217">The Abnormality จะผลิต PE-Box</text>
+  <text id="Manual_Text_218">ถ้าเกิดว่าล้มเหลว…</text>
+  <text id="Manual_Text_219">The Abnormality จะผลิด NE-Box</text>
+  <text id="Manual_Text_220">ทุกครั้งที่มีการผลิต NE-Box Abnormality จะโจมตีพนักงาน</text>
+  <text id="Manual_Text_221">หาก HP หรือ SP ของพนักงานลดลงเหลือศูนย์ในระหว่าง กระบวนการทำงานพวกเขาจะตายหรือเกิดอาการตื่นตระหนก</text>
+  <text id="Manual_Text_222">หากเกิดกรณีดังกล่าว กระบวนการทำงานจะสิ้นสุดลงก่อนกำหนด และ E-Box ที่เหลือจะถูกผลิตเป็น NE-Box</text>
+  <text id="Manual_Text_223">การสิ้นสุดการทำงาน</text>
+  <text id="Manual_Text_224">หลอดวัด E-Box จะเติม ให้สอดคล้องกับ PE-Box ที่ผลิต</text>
+  <text id="Manual_Text_225">จำนวน PE-Box จะกำหนดสถานะผลลัพธ์ของงาน ผลลัพธ์มี 3 ระดับ ได้แก่ แย่ ปกติ และดี</text>
+  <text id="Manual_Text_226">จากนั้น PE-Box ที่ผลิตจะถูกเก็บไว้เป็น PE-Box เฉพาะสำหรับ Abnormality และ Unique PE-Box สามารถใช้เพื่อปลดล็อก Abnormality Encyclopedia เพิ่มเติมและผลิต E.G.O.ได้ด้วย</text>
+  <text id="Manual_Text_227">The Qliphoth Counter</text>
+  <text id="Manual_Text_228">The Qliphoth Counter ของ Abnormalities อาจลดลงหากรับมือไม่ถูกต้องโดยทั่วไป จะเกิดจากผลงานที่ไม่ดีหรือละเมิดแนวปฏิบัติการจัดการ</text>
+  <text id="Manual_Text_229">The Qliphoth Counter สามารถพบได้บน UI ของห้องกักกัน</text>
+  <text id="Manual_Text_230">เมื่อค่า Qliphoth Counter ถึง 0 The Abnormality จะหลบหนีจากห้องกักกันหรือใช้ความสามารถพิเศษของมัน</text>
+  <text id="Manual_Text_231">โปรดระมัดระวังเพื่อให้แน่ใจว่าค่า Qliphoth Counter ไม่ถึง 0</text>
+  <text id="Manual_Text_232">โทษปรับตามจำนวนงาน</text>
+  <text id="Manual_Text_233">Qliphoth Overloads</text>
+  <text id="Manual_Text_234">อัตราความสำเร็จของการทำงานที่มี The Abnormality WAW และ ALEPH จะลดลง เมื่อจำนวนงานที่สำเร็จเพิ่มขึ้น</text>
+  <text id="Manual_Text_235">ห้องกักกันที่มี Qliphoth Overload จะแสดงปริมาณอัตราการลดลงความสำเร็จในปัจจุบัน ซึ่งการลดลงนี้จะปรากฏใน UI ของหน้าคำสั่งด้วย</text>
+  <text id="Manual_Text_236">ห้องกักกันที่มี Qliphoth Overload จะกลับสู่สภาวะปกติเมื่อ Qliphoth Meltdown เกิดขึ้น เมื่อเกิด Meltdown นี้ อัตราความสำเร็จที่ลดลงทั้งหมดจะกลับคืนสู่ค่าเดิม</text>
+  <text id="Manual_Text_237">Qliphoth Meltdown หรือห้องพังทะลาย</text>
+  <text id="Manual_Text_238">ระดับการ Meltdown</text>
+  <text id="Manual_Text_239">ทุกครั้งที่เกิด Qliphoth Meltdown ระดับนี้จะเพิ่มขึ้น</text>
+  <text id="Manual_Text_240">หลอด Qliphoth Meltdown</text>
+  <text id="Manual_Text_241">ทุกครั้งที่พนักงานเข้าสู่หน่วยกักเก็บ หลอด Qliphoth Meltdown จะเพิ่มขึ้น 1 หน่วย</text>
+  <text id="Manual_Text_242">เมื่อหลอดเต็ม Qliphoth Meltdown จะเกิดขึ้นทั่วทั้งโรงงาน</text>
+  <text id="Manual_Text_243">เมื่อระดับ Meltdown Level เพิ่มขึ้น จำนวนห้องกักกันที่ได้รับผลกระทบก็เพิ่มขึ้นเช่นกัน</text>
+  <text id="Manual_Text_244">สัญญาณแจ้งเตือน Meltdown</text>
+  <text id="Manual_Text_245">ตัวจับเวลาเตือนจะปรากฏบนหน่วยกักกันทุกหน่วยที่กำลังเผชิญกับภาวะ Qliphoth Meltdown ที่ตัวจับเวลานี้จะค่อยๆ ลดลง</text>
+  <text id="Manual_Text_246">เมื่อตัวจับเวลาถึง 0 Qliphoth Counter ของ The Abnormality ภายในห้องกักกันก็จะกลายเป็น 0 และจำนวน PE-Box เฉพาะจะลดลง</text>
+  <text id="Manual_Text_247">มาตรการรับมือวิกฤต Meltdown</text>
+  <text id="Manual_Text_248">The Qliphoth Meltdown จะหายไปทันทีที่พนักงานเข้าห้องกักกัน</text>
+  <text id="Manual_Text_249">หลอด The Qliphoth Meltdown จะไม่เพิ่มขึ้นเมื่อเข้าสู่หน่วยกักเก็บภายใต้ Meltdown</text>
+  <text id="Manual_Text_250">อย่างไรก็ตาม อัตราความสำเร็จที่ลดลงจาก Qliphoth Overloads จะยังคงอยู่ในการทำงาน</text>
+  <text id="Manual_Text_251">บททดสอบ</text>
+  <text id="Manual_Text_252">ในระดับบางระดับของ Qliphoth Meltdowns,  จะมีการแสดงให้เห็นถึงบททดสอบแทนการล่มสลายของห้องกักกัน</text>
+  <text id="Manual_Text_253">'การทดสอบ' คือรูปแบบหนึ่งของความผิดปกติที่ยังไม่ผ่านการกลั่นกรอง การทดสอบมีระดับความเสี่ยงสี่ระดับ ซึ่งสอดคล้องกับช่วงเวลาของวัน ได้แก่ รุ่งอรุณ เที่ยงวัน พลบค่ำ และเที่ยงคืน เมื่อระดับของ Qliphoth Meltdown เพิ่มขึ้น ระดับการทดสอบที่สูงขึ้นจะปรากฏขึ้น</text>
+  <text id="Manual_Text_254">การทดสอบจะขัดขวางการรับมือ Abnormalities ได้หลากหลายวิธีอย่างไรก็ตาม เนื่องจากการทดสอบก็เป็นรูปแบบหนึ่งของความผิดปกติเช่นกัน จึงสามารถยับยั้งได้โดยการสั่งการพนักงานของคุณ หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการยับยั้งบททดสอบและความผิดปกติ โปรดดูหัวข้อ "การยับยั้ง Abnormalities"</text>
+  <text id="Manual_Text_255">การเปิดสารานุกรม</text>
+  <text id="Manual_Text_256">คุณสามารถเปิดหน้าต่างสารานุกรมได้โดยคลิกที่ป้ายห้องกักกันของ the Abnormality</text>
+  <text id="Manual_Text_257">สารานุกรม Abnormalities </text>
+  <text id="Manual_Text_258">เรื่องราว Abnormality</text>
+  <text id="Manual_Text_259">ส่วนนี้จะแสดงเรื่องราวของ Abnormalities เรื่องราวจะได้รับ การอัปเดตตามระดับการสังเกตแต่ละระดับ</text>
+  <text id="Manual_Text_260">ข้อมูล Abnormality</text>
+  <text id="Manual_Text_261">นี่คือข้อมูลพื้นฐานสำหรับการทำงานกับ Abnormality</text>
+  <text id="Manual_Text_262">แนวทางการรับมือ</text>
+  <text id="Manual_Text_263">อัตราความสำเร็จของงานแต่ละประเภท</text>
+  <text id="Manual_Text_264">The Qliphoth Counter , ความต้านทานของสี RWBP ถ้า the Abnormality หลุดจากห้องกักกัน</text>
+  <text id="Manual_Text_265">E.G.O ที่สามารถผลิตหรือได้รับได้ ในระดับการสังเกตปัจจุบัน</text>
+  <text id="Manual_Text_266">การวิเคราะห์ Abnormality</text>
+  <text id="Manual_Text_267">ใช้ unique PE-Boxes ของคุณ</text>
+  <text id="Manual_Text_268">คุณสามารถปลดล็อคสารานุกรมเพิ่มเติมได้โดยใช้ unique PE-Boxes ของ Abnormality นั้น</text>
+  <text id="Manual_Text_269">ระดับการสังเกต</text>
+  <text id="Manual_Text_270">เมื่อข้อมูลทั้งหมดในหมวดหมู่ถูกปลดล็อค ระดับการสังเกตจะเพิ่มขึ้น</text>
+  <text id="Manual_Text_271">การผลิต E.G.O</text>
+  <text id="Manual_Text_272">E.G.O Gifts</text>
+  <text id="Manual_Text_273">พนักงานมีโอกาสต่ำที่จะได้รับ E.G.O Gifts เมื่อทำกระบวนการทำงานให้สำเร็จโดยมี E.G.O Gifts มีผลต่อค่าสถานะของพนักงาน</text>
+  <text id="Manual_Text_274">การผลิต E.G.O</text>
+  <text id="Manual_Text_275">การบรรลุระดับการสังเกต Abnormality ที่จำเป็นจะช่วยให้สามารถผลิต E.G.O. ที่สอดคล้องกันของ Abnormality ได้ การผลิต E.G.O ส่วนใหญ่จำเป็นต้องใช้ unique PE-Box</text>
+  <text id="Manual_Text_276">อะไรคือ Abnormalities ประเภทอุปกรณ์?</text>
+  <text id="Manual_Text_277">มันไม่เหมือนกับ Abnormalities ส่วนใหญ่ ตรงที่เป็น Abnormalities ที่เน้นแนวคิดเรื่อง "การใช้งาน" แทนที่จะเป็น "การรับมือ"</text>
+  <text id="Manual_Text_278">การจำแนกประเภท Tool Abnormality</text>
+  <text id="Manual_Text_279">1. การใช้งานครั้งเดียว: พนักงานใช้เครื่องมือนี้โดยมีผลทันที</text>
+  <text id="Manual_Text_280">2. ติดตั้งได้: พนักงานจะต้องติดตั้งเครื่องมือนี้เพื่อให้เกิดผล</text>
+  <text id="Manual_Text_281">3. การใช้ช่องทาง: พนักงานจะต้องใช้เครื่องมือนี้อย่างต่อเนื่องเพื่อให้เกิดผล</text>
+  <text id="Manual_Text_282">ทุกๆ 5 วัน เริ่มตั้งแต่วันที่ 4 (วัน 4, วัน 9 เป็นต้น) Abnormality Tool อันใหม่จะออกมาให้ถูกเลือก</text>
+  <text id="Manual_Text_283">วิธีใช้เครื่องมือ</text>
+  <text id="Manual_Text_284">1. คลิกห้องบรรจุของ Tool Abnormality เพื่อเปิด UI คำสั่ง จากนั้นส่งพนักงานไปใช้งาน</text>
+  <text id="Manual_Text_285">2. พนักงานจะใช้หรือใส่ Tool Abnormality</text>
+  <text id="Manual_Text_286">3. สามารถสั่งให้พนักงานหยุดการใช้งานหรือ ส่งคืนเครื่องมือที่ติดตั้งได้โดยการคลิกที่ห้องเก็บของอีกครั้ง</text>
+  <text id="Manual_Text_287">การสังเกต Tool Abnormality</text>
+  <text id="Manual_Text_288">สารานุกรมของ Tool Abnormality จะอัปเดตโดยอัตโนมัติตาม จำนวนการใช้งานหรือเวลาทั้งหมดที่ใช้</text>
+  <text id="Manual_Text_289">การหลบหนีของ Abnormality</text>
+  <text id="Manual_Text_290">หากค่า Qliphoth Counter ถึง 0 Abnormality จะออกจากห้องกักกัน</text>
+  <text id="Manual_Text_291">Qliphoth Counter อาจลดลงไม่เพียงแต่จากทำงานผลงานที่ไม่ดี แต่ยังเกิดจากการละเมิดวิธีการรับมืออีกด้วย</text>
+  <text id="Manual_Text_292">การหลบหนีของ Abnormality จำเป็นต้องถูกระงับโดยเร็ว หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการระงับ Abnormality โปรดดูหัวข้อ "การระงับ Abnormality"</text>
+  <text id="Manual_Text_293">เมื่อพนักงานตายหรือเสียสติ</text>
+  <text id="Manual_Text_294">เมื่อพนักงานตาย</text>
+  <text id="Manual_Text_295">พนักงานคนใดก็ตาม HP ลดลงเหลือ 0 เนื่องจากได้รับความเสียหายจากการโจมตี RED BLACK หรือ PALE จะต้องตาย</text>
+  <text id="Manual_Text_296">หากพนักงานตาย E.G.O ที่พวกเขาสวมใส่จะถูกทำลาย</text>
+  <text id="Manual_Text_297">เมื่อพนักงานเสียสติ</text>
+  <text id="Manual_Text_298">1. พนักงานคนใดก็ตามที่มี SP ลดลงเหลือ 0 เนื่องจากความเสียหายจาก WHITE หรือ BLACK จะตกอยู่ในสภาวะเสียขวัญ</text>
+  <text id="Manual_Text_299">2. พนักงานที่อยู่ในสภาวะเสียขวัญ สามารถกลับมามีสติได้เมื่อฟื้น SP เต็มจำนวนจากการโจมตีรักษาด้วย WHITE หรือ BLACK E.G.O</text>
+  <text id="Manual_Text_300">หากวันทำงานสิ้นสุดลงในขณะที่ พนักงานยังคงอยู่ในภาวะตื่นตระหนก พวกเขาจะถูกกำจัด</text>
+  <text id="Manual_Text_301">ระดับฉุกเฉิน</text>
+  <text id="Manual_Text_302">ถ้า Abnormality หลบหนีหรือพนักงานตายหรือเสียสติ เสียงสัญญาณเตือนภัยจะดังขึ้นขึ้นอยู่กับความร้ายแรงของสถานการณ์</text>
+  <text id="Manual_Text_303">ระดับที่ 1</text>
+  <text id="Manual_Text_304">มีการต่อต้านของ Abnormality และก่อให้เกิดภัยคุกคามเล็กน้อยต่อสถานที่และพนักงาน</text>
+  <text id="Manual_Text_305">ระดับที่ 2</text>
+  <text id="Manual_Text_306">ยังไม่สายเกินไปที่จะแก้ไขสถานการณ์ ผู้จัดการที่เก่งกาจสามารถจัดการเรื่องแบบนี้ได้ แน่นอนแม้ว่ามันต้องเสียพนักงานไปหลายคน</text>
+  <text id="Manual_Text_307">ระดับที่ 3</text>
+  <text id="Manual_Text_308">คงจะเป็นเรื่องมหัศจรรย์มาก หากคุณจะฟื้นตัวจากสถานการณ์นี้ได้ พนักงานส่วนใหญ่เสียชีวิตไปแล้ว และแทบจะเป็นไปไม่ได้เลยที่จะระงับการต่อต้านของ Abnormality</text>
+  <text id="Manual_Text_309">UI การระงับเหตุ</text>
+  <text id="Manual_Text_310">ระดับความอันตราย</text>
+  <text id="Manual_Text_311">ประเภทการโจมตี</text>
+  <text id="Manual_Text_312">ประเภทการป้องกัน</text>
+  <text id="Manual_Text_313">ดาเมจที่ได้รับจะผกผันกับตัวคูณค่าป้องกัน</text>
+  <text id="Manual_Text_314">การใช้ E.G.O ที่ Abnormality แพ้ทาง (ตัวคูณค่าป้องกัน 1.0 ขึ้นไป) จะทำให้การกำราบทำได้ง่ายขึ้น</text>
+  <text id="Manual_Text_315">ค่าสถานะพนักงาน</text>
+  <text id="Manual_Text_316">สามารถตรวจสอบ HP, SP และ E.G.O ของพนักงานได้ที่นี่</text>
+  <text id="Manual_Text_317">การควบคุมผ่านหน้าต่างคำสั่ง</text>
+  <text id="Manual_Text_318">1. คลิกที่ความ Abnormality ที่กำลังหลบหนี หรือห้องกักกันของมัน</text>
+  <text id="Manual_Text_319">2. เลือกตัวแทนที่คุณต้องการส่งไปกำราบ เมื่องานวิจัยของทีมควบคุมเสร็จสิ้น แผนกอื่นๆ ก็สามารถมาช่วยในการกำราบได้</text>
+  <text id="Manual_Text_320">3. คุณสามารถยกเลิกคำสั่งกำราบของพนักงานใดๆ ได้โดยคลิกที่พนักงานนั้นๆ หากพนักงานนั้นๆ กำลังกำราบอยู่</text>
+  <text id="Manual_Text_321">การระงับด้วยการควบคุมผ่านพนักงาน</text>
+  <text id="Manual_Text_322">1. เลือกพนักงานที่คุณต้องการ กำราบโดยการคลิก (หรือลาก)</text>
+  <text id="Manual_Text_323">2. คลิกขวาที่ Abnormality ที่กำลังหลบหนีโดยใช้ (เหล่า)พนักงานที่คุณเลือก</text>
+  <text id="Manual_Text_324">กระสุนของผู้จัดการ</text>
+  <text id="Manual_Text_325">กระสุนของผู้จัดการจะถูกปลดล็อคโดย วิจัยงานวิจัยในแผนกชั้นกลางให้เสร็จสิ้น</text>
+  <text id="Manual_Text_326">ปริมาณกระสุนที่ใช้ได้จะขึ้นอยู่กับจำนวนจังหวะที่ต้องใช้ในการเติมหลอด Qliphoth Meltdown</text>
+  <text id="Manual_Text_327">เมื่อกระสุนหมดเกลี้ยงแล้ว จะไม่บรรจุกระสุนใหม่จนกว่าจะเกิด Qliphoth Meltdown ขึ้น เมื่อเกิด Qliphoth Meltdown จำนวนกระสุนจะถูกบรรจุใหม่จนเต็ม</text>
+  <text id="Manual_Text_328">วิธีใช้กระสุน</text>
+  <text id="Manual_Text_329">1. คลิกที่ UI ของกระสุนหรือกดปุ่มตัวเลขที่ตรงกัน (1-8) เพื่อโหลดกระสุน</text>
+  <text id="Manual_Text_330">2. เมื่อโหลดกระสุนแล้ว เคอร์เซอร์เมาส์จะเปลี่ยนเป็นเส้นเล็งของกระสุน</text>
+  <text id="Manual_Text_331">3. เล็งเคอร์เซอร์ไปที่เป้าหมายแล้ว คลิกเมาส์ซ้ายเพื่อยิงกระสุน</text>
+  <text id="Manual_Text_332">4. หากต้องการเอากระสุนออก ให้คลิกที่ UI ของกระสุน หรือไม่ก็ กดปุ่มตัวเลขอีกครั้ง</text>
+  <text id="Manual_Text_333">จบการทำงาน</text>
+  <text id="Manual_Text_334">หน้าต่างผลลัพธ์จะแสดงภารกิจที่สำเร็จ</text>
+  <text id="Manual_Text_335">จะแสดงการเพิ่มขึ้นของค่าสถานะ และระดับของพนักงานแต่ละคน</text>
+  <text id="Manual_Text_336">ทุกครั้งที่คุณสิ้นสุดวัน คุณจะได้รับ LOB ตามผลที่คุณทำได้ดี</text>
+  <text id="Manual_Text_337">ยิ่งจำนวนตัวแทนที่เหลืออยู่มากขึ้นเท่าใด อันดับผลสรุปก็จะสูงขึ้นและได้รับ LOB มากขึ้นเท่านั้น</text>
+  <text id="Manual_Text_338">หากวันสิ้นสุดลงในขณะที่มี Abnormality กำลังหลบหนี จะมีการลงโทษตามจำนวน LOB ที่ได้รับ</text>
+  <text id="Manual_Text_339">การเลือกที่จะดำเนินการต่อ</text>
+  <text id="Manual_Text_340">หลังจากสิ้นสุดวันแล้ว คุณสามารถเลือกที่จะดำเนินการต่อ ในวันถัดไปหรือจะแก้มือวันนี้ซ้ำอีกครั้ง</text>
+  <text id="Manual_Text_341">หากคุณเลือกที่จะแก้มือในวันนั้นอีกครั้ง พนักงานและ E.G.O ที่หายไปทั้งหมดจะถูกกู้คืน อย่างไรก็ตาม ความคืบหน้าใดๆ ที่เกี่ยวข้องกับการสังเกตการณ์และ E.G.O ที่เกิดขึ้นในวันนั้นจะหายไป</text>
+  <text id="Manual_Text_342">พื้นที่เก็บข้อมูลหน่วยความจำ</text>
+  <text id="Manual_Text_343">พื้นที่เก็บข้อมูลหน่วยความจำ จะถูกบันทึกทุกๆ 5 วัน (วันที่ 1, วันที่ 6, วันที่ 11 เป็นต้น)</text>
+  <text id="Manual_Text_344">ไม่เหมือนกับการลองเริ่มวันนั้นใหม่ การย้อนกลับไปยังพื้นที่เก็บข้อมูลความทรงจำจะยังรักษาการสังเกตที่ปลดล็อคทั้งหมดและ E.G.O. ที่ผลิตไว้ แต่การขยายแผนกและ Abnormality ที่ถูกเลือกมาจะหายไปสู่วันที่ถูกบันทึก</text>
+  <text id="Manual_Text_345">คุณสามารถเลือกที่จะย้อนกลับไปยังพื้นที่เก็บข้อมูลหน่วยความจำได้ในเมนูปุ่ม ESC</text>
+  <text id="Manual_Text_346">การเลือก Abnormality</text>
+  <text id="Manual_Text_347">ทุกครั้งที่คุณก้าวไปสู่วันถัดไป คุณจะต้องเลือก Abnormality ที่ต้องการออกมา</text>
+  <text id="Manual_Text_348">โปรดอ่านคำเสนอแนะของ Abnormality แต่ละอย่างอย่างถี่ถ้วนก่อนตัดสินใจเลือก</text>
+  <text id="Manual_Text_349">การเปิดและการขยายแผนก</text>
+  <text id="Manual_Text_350">ทุกครั้งที่คุณก้าวไปสู่วันถัดไป คุณจะต้องเลือกแผนกที่จะขยายสำหรับห้องกักกัน Abnormality ที่เพิ่งเลือกออกมา</text>
+  <text id="Manual_Text_351">ทุกครั้งที่คุณขยายแผนก ระดับการขยายจะเพิ่มขึ้น</text>
+  <text id="Manual_Text_352">เมื่อระดับการขยายตัวของแผนกปัจจุบันทั้งหมดถึงระดับสูงสุด แผนกใหม่ๆ จะพร้อมเปิดได้</text>
+  <text id="Manual_Text_353">ในกรณีที่สามารถเปิดแผนกได้สองแผนกในเวลาเดียวกัน แผนกใดแผนกหนึ่งก็สามารถเปิดและขยายได้ตามใจต้องการ โดยไม่จำเป็นต้องเพิ่มระดับการขยายของแผนกใดให้สูงสุดก่อน</text>
+  <text id="Manual_Text_354">ยิ่งระดับความอันตรายของ Abnormality เท่าใด การรับมือก็จะยากขึ้นเท่านั้น</text>
+  <!--Added at 2018.01.26-->
+  <text id="Manual_Text_355">สวัสดิการของแผนก</text>
+  <text id="Manual_Text_356">ปุ่มนี้จะแสดงสวัสดิการของแผนก</text>
+  <text id="Manual_Text_357">ข้อเตือนใจสำหรับการเคลื่อนย้ายพนักงาน</text>
+  <text id="Manual_Text_358">หากพนักงานทุกคนของแผนกหนึ่ง อยู่ในแผนกอื่นที่ตนไม่สังกัด การนับถอยหลังจะเริ่มขึ้น</text>
+  <text id="Manual_Text_359">สำหรับแผนกหนึ่งๆ หากพนักงานทั้งหมดขาดงานและการนับถอยหลังถึงศูนย์ พนักงานทุกคนในแผนกนั้นจะเกิดอาการตื่นตระหนก</text>
+  <text id="Manual_Text_360">สวัสดิการพนักงาน</text>
+  <text id="Manual_Text_361">สิทธิประโยชน์ของพนักงานจะถูกนำไปใช้ตามจำนวนพนักงานธุรการที่ยังเหลืออยู่ในแต่ละแผนก สิทธิประโยชน์ที่ได้รับจะแตกต่างกันไปในแต่ละแผนก</text>
+  <text id="Manual_Text_362">ประสิทธิภาพของผลประโยชน์จะเพิ่มขึ้นตามการขยายตัวของแผนก ยิ่งระดับสูงขึ้นก็จะยิ่งได้ผลดียิ่งขึ้น</text>
+  <text id="Manual_Text_363">ระดับสวัสดิการพนักงาน</text>
+  <text id="Manual_Text_364">ระดับที่ 3: จำนวนพนักงานธุการของแผนกมีชีวิตอยู่ 100%~80%; แผนกระดับ 5</text>
+  <text id="Manual_Text_365">ระดับที่ 2: จำนวนพนักงานธุการของแผนกมีชีวิตอยู่ 80%~50%; แผนกระดับ 3+</text>
+  <text id="Manual_Text_366">ระดับที่ 1: จำนวนพนักงานธุการของแผนกมีชีวิตอยู่ 50%~30%; แผนกระดับ 1+</text>
+  <text id="Manual_Text_367">เมื่อพนักงานธุรการเสียชีวิตหรือเกิดอาการเสียสติในระหว่างวันทำงานเปอร์เซ็นต์ของ พนักงานธุรการที่ยังมีชีวิตอยู่จะลดลง และส่งผลให้ระดับสวัสดิการพนักงานอาจลดลงด้วย</text>
+  <text id="Manual_Text_368">หากจำนวนพนักงานธุรการที่ยังมีชีวิตอยู่ในแผนกถึงศูนย์ สวัสดิการพนักงานจะถูกปิดสำหรับแผนกนั้น</text>
+  <text id="Manual_Text_369">สวัสดิการอายุงาน</text>
+  <text id="Manual_Text_370">พนักงานจะได้รับสิทธิประโยชน์ตามจำนวนวันที่อยู่ในแผนกของตน</text>
+  <text id="Manual_Text_371">สวัสดิการอายุงาน จะแตกต่างกันไปในแต่ละแผนก พนักงานที่ได้รับสิทธิประโยชน์ดังกล่าวจะได้รับตำแหน่งพิเศษและปลอกแขนสัญลักษณ์เฉพาะ</text>
+  <text id="Manual_Text_372">อย่างไรก็ตาม หากพนักงานที่ได้รับสิทธิประโยชน์จากสวัสดิการอายุงาน ถูกย้ายไปแผนกอื่น ประโยชน์จาก ปลอกแขนและตำแหน่งต่างๆ จะถูกลบออกทั้งหมด</text>
+  <text id="Manual_Text_373">ระดับสวัสดิการอายุงาน</text>
+  <text id="Manual_Text_374">ระดับ 1: ระยะเวลาทำงาน 1~2 วัน</text>
+  <text id="Manual_Text_375">ระดับ 2: ระยะเวลาทำงาน 3~6 วัน</text>
+  <text id="Manual_Text_376">ระดับ 3: ระยะเวลาทำงาน 7+ วัน</text>
+  <text id="Manual_Text_377">นอกจากนี้ ยังจะมีการมอบปลอกแขนและสิทธิประโยชน์พิเศษเฉพาะ ให้กับพนักงานเพียงคนเดียวในแผนกที่ทำงานยาวนานที่สุด ในบรรดาเพื่อนร่วมงานที่ทำงานเกิน 7 วัน</text>
+  <text id="Manual_Text_378">หากเจ้าพนักงานทั้งหมดจากแผนกเสียชีวิต อัตราความสำเร็จของ Abnormality ทั้งหมดในแผนกจะลดลงอย่างมาก</text>
+  <text id="Manual_Text_379">หากพนักงานทุกคนเสียชีวิต พนักงานธุรการทุกคนในแผนกนั้นจะฆ่าตัวตายทันที และสวัสดิการพนักงานของแผนกนั้นก็จะหายไปด้วย</text>
+  <text id="Manual_Text_380">เมื่อพนักงานเสียสติ</text>
+  <text id="Manual_Text_381">3. พฤติกรรมของพนักงานที่เสียสติจะถูกกำหนด โดยค่าสถานะสูงสุดของพนักงาน</text>
+  <text id="Manual_Text_382">Fortitude → ฆ่าไม่เลือก</text>
+  <text id="Manual_Text_383">Prudence → ฆ่าตัวตาย</text>
+  <text id="Manual_Text_384">Temperance → เดินเตร่</text>
+  <text id="Manual_Text_385">Justice → ปลดปล่อย Abnormality</text>
+  <text id="Manual_Text_386">4. ยิ่งระดับของพนักงานสูงขึ้นเท่าไหร่ การทำให้พวกเขากลับมามีสติก็จะยิ่งยากขึ้นเท่านั้น และความเสียหายที่พวกเขาสร้างให้กับสถานที่และเพื่อนร่วมงานก็มักจะรุนแรงมากขึ้นด้วย</text>
+  <text id="Manual_Text_387">5. โปรดทราบว่าหากคุณจบวัน พนักงานคนใดยังตกอยู่ในสภาวะเสียขวัญ พวกเขาจะถูกกำจัดทันที</text>
+  <text id="Manual_Text_388">Defender</text>
+  <text id="Manual_Text_389">Attacker</text>
+  <text id="Manual_Text_390">(Risk Level)</text>
+</localize>

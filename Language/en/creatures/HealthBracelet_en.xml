@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+	    <info id="300106">
+		    <narration action="move">
+			      #0 กำลังเดินทางไปยังห้องกักกันของ $0 เพื่อเริ่มกระบวนการทำงาน
+		</narration>
+	</info>
+	  <observe level="4">
+		    <collection>
+			      <codeNo openLevel="0">O-09-95 </codeNo>
+			      <portrait openLevel="1">Sprites/Unit/creature/HealthBracelet</portrait>
+			      <name openLevel="1">
+				        Luminous Bracelet
+			</name>
+			      <riskLevel openLevel="1">
+				        TETH
+			</riskLevel>
+			      <openText>กำไลนี้จะไม่ให้อภัยผู้ที่มีความโลภอยู่ในใจ ดังนั้นมันจึงควรถูกสวมใส่โดยผู้ที่ต้องการอย่างแท้จริงเท่านั้น</openText>
+		</collection>
+		    <desc id="1" openLevel="0">
+			      [
+			      {กำไลที่เปล่งแสงสีเขียวอมฟ้าอ่อนๆ สิ่งที่ไม่สามารถอธิบายได้มากมายถูกค้นพบในชายขอบ}
+			      ]
+		</desc>
+		    <desc id="2" openLevel="1">
+			      [
+			      {เมื่อสวมใส่ บาดแผลทั้งหมดจะได้รับการเยียวยาโดยไม่มีร่องรอยของแผลเป็น}
+			      ]
+		</desc>
+		    <desc id="3" openLevel="2">
+			      [
+			      {อย่างไรก็ตาม การสวมกำไลนี้แม้ว่าร่างกายจะไม่มีรอยขีดข่วนเหลืออยู่เลยก็ตามถือเป็นการกระทำที่แสดงถึงความโลภ}
+			      ]
+		</desc>
+		    <desc id="4" openLevel="3">
+			      [
+			      {กำไลนี้จะไม่ให้อภัยผู้ที่มีความโลภอยู่ในใจ ดังนั้นมันจึงควรถูกสวมใส่โดยผู้ที่ต้องการอย่างแท้จริงเท่านั้น}
+			      ]
+		</desc>
+		    <specialTipSize size="4">
+			      <specialTip openLevel="1" key="1">ค่าสถานะ Fortitude จะเพิ่มขึ้นอย่างมากในขณะที่สวมใส่ $0</specialTip>
+			      <specialTip openLevel="2" key="2">$0 จะฟื้นฟู HP ของผู้สวมใส่อย่างต่อเนื่องเมื่อมันลดลง</specialTip>
+			      <specialTip openLevel="2" key="3">ผู้สวมใส่จะเสียชีวิตหากพยายามคืน $0 ก่อนที่พวกเขาจะหายดีอย่างสมบูรณ์</specialTip>
+			      <specialTip openLevel="2" key="4">หาก HP ของผู้สวมใส่ไม่ลดลงหลังจากระยะเวลาหนึ่ง พวกเขาจะเสียชีวิตจากการฟื้นฟูที่มากเกินไป</specialTip>
+		</specialTipSize>
+	</observe>
+</creature>

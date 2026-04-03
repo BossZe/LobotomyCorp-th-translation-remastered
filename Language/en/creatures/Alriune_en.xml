@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+  <!--
+    info - 관찰 레벨과는 관련 없는 정보들 ex)데미지, id, 이미지 소스 등
+    
+    observe - 관찰 정도에 따라 제공되는 정보들
+              각 정보들에는 정보가 제공되는 레벨을 표기
+              ex) <desc id="1" openLevel="1">"openLevel이 1일 때 이 정보가 제공됨"</desc>
+              
+              observe 노드 안의 level 은 관찰 단계의 갯수를 나타냄
+              
+    <feeling max="100" downProb="0.44" downValue="1">
+      <section feelingValue="50" state="good" energy="0.5"/>
+      <section feelingValue="30" state="normal" energy="0.3"/>
+      <section feelingValue="0" state="bad" energy="-1.3"/>
+    </feeling>
+
+  -->
+  <info id="100029">
+    <narration action="move">
+      #0 กำลังเดินทางไปยังห้องกักกันของ $0 เพื่อเริ่มกระบวนการทำงาน
+    </narration>
+    <narration action="start">
+      [
+      {ผู้ที่เกิดมาเปลือยเปล่า จะกลับคืนสู่โลกโดยเปลือยเปล่า},
+      {$0 จดจำรอยไหม้ภายใน}
+      ]
+    </narration>
+    <narration action="mid1">
+      [
+      {บางทีเราอาจพยายามสร้างมนุษย์ที่ไร้หัวใจ},
+      {ดอกไม้ที่ไม่เหี่ยวเฉาเบ่งบานอย่างรุนแรง}
+      ]
+    </narration>
+    <narration action="mid2">
+      [
+      {#0 อยากจะจำศีลอย่างสบายๆ บนเตียงดอกไม้ },
+      {#0 ประทับใจอย่างมากกับกลิ่นลาเวนเดอร์ที่อบอวลไปทั่วห้องกักกัน}
+      ]
+    </narration>
+    <narration action="mid3">
+      [
+      {เมื่อเบ่งบานและเหี่ยวเฉา $0 ตระหนักถึงความหมายของการฟื้นคืนชีพ; ไม่ว่ามันจะมุ่งหน้าไปที่ใด ร่องรอยของมันจะยังคงอยู่ และทุกชีวิตจะมารวมตัวกับ $0},
+      {ในขณะที่ #0 หลับใหลอยู่ท่ามกลางหมู่ดอกไม้ กลิ่นหอมสดชื่นได้พวยพุ่งออกมาจากร่างของพวกเขาแทนที่กลิ่นคาวโลหะของเลือด},
+      {ดอกไม้ดอกหนึ่งเบ่งบานในหัวใจของทุกคน}
+      ]
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-04-53</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/Alriune</portrait>
+      <name openLevel="1">
+        Alriune
+      </name>
+      <riskLevel openLevel="1">
+        WAW
+      </riskLevel>
+      <openText>แบกความหวังที่จะกลับคืนสู่ธุลี มันจะกลับคืนสู่หลุมศพพร้อมกับทุกสิ่งที่ปรารถนาจะมีชีวิต</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {Abnormality ที่รู้ถึงการกำเนิดของฤดูใบไม้ผลิและการจากไปของฤดูใบไม้ร่วง}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {พื้นผิวของมันเรียบเนียนราวกับเป็นเซรามิก ในตำแหน่งที่ควรจะเป็นดวงตาของ Abnormality กลับว่างเปล่า รอยแตกและช่องเปิดกลับเต็มไปด้วยพืชที่กำลังเติบโต}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {<i>อัลริอูน ผู้เป็นที่รัก; ตุ๊กตาที่ปรารถนาจะเป็นมนุษย์ มันเป็นที่ชื่นชอบของผู้คน ดวงตาของมันเต็มไปด้วยจิตวิญญาณ</i>}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {<i>อัลริอูน ถูกทอดทิ้งในป่ามืดมิด; ดวงตาของมันถูกขโมยไปโดยอีกาที่โลภในแสงระยิบระยับ จิตใจ ชีวิต และหัวใจของมันค่อยๆ เหี่ยวเฉาไป</i>}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {<i>อัลริอูน ไร้ซึ่งดวงตาแต่กลับมองเห็นได้ทั้งหมด; มนุษย์ที่ปรารถนาจะเป็นตุ๊กตา แบกความหวังที่จะกลับคืนสู่ธุลี มันจะกลับคืนสู่หลุมศพพร้อมกับทุกสิ่งที่ปรารถนาจะมีชีวิต</i>}
+      ]
+    </desc>
+    <specialTipSize size="2">
+      <specialTip openLevel="1" key="PanicDeath">เมื่อผลการทำงานเป็น ดี Qliphoth Counter จะลดลง ด้วยความน่าจะเป็นที่สูง</specialTip>
+      <specialTip openLevel="1" key="PanicDeath2">เมื่อผลการทำงานเป็น แย่ Qliphoth Counter จะลดลง ด้วยความน่าจะเป็นที่สูง</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

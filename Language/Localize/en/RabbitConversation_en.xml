@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <!--UI-->
+  <text id="Rabbit_Isolate_Prefix">ทำงาน</text>
+  <text id="Rabbit_Isolate_Postfix">ปฏิเสธ</text>
+  <text id="Rabbit_SefiraSlot_Enemy">สิ่งมีชีวิตที่เป็นศัตรู</text>
+  <text id="Rabbit_SefiraSlot_Select">กำหนดการชำระล้าง</text>
+  <text id="Rabbit_SefiraSlot_Agent">พนักงาน</text>
+  <text id="Rabbit_SefiraSlot_Officer">พนักงานธุรการ</text>
+  <text id="Rabbit_SefiraSlot_LowLevel">ระดับการขยายไม่เพียงพอ</text>
+  <text id="Rabbit_Info_CallbeDept">ขีดจำกัดการกำหนด</text>
+  <text id="Rabbit_Info_Cost">ราคาพลังงานที่ต้องจ่าย</text>
+  <text id="Rabbit_Info_CostCalc">{0}% ของพลังงานของโรงงานในปัจจุบัน</text>
+  <text id="Rabbit_Confirm">อนุญาตการโทร</text>
+  <text id="Rabbit_Manual_Title">- คู่มือปฏิบัติการเรียก Rabbit -</text>
+  <text id="Rabbit_Manual_Day">1. ทีม Rabbit สามารถเรียกได้วันละครั้ง</text>
+  <text id="Rabbit_Manual_MaxSefira">2. สามารถเรียกทีม Rabbit ไปยังแผนกต่างๆ ได้สูงสุด 4 แผนกพร้อมกัน</text>
+  <text id="Rabbit_Manual_MaxCount">3. จะมีการเรียก Rabbit สูงสุด 32 คน</text>
+  <text id="Rabbit_Manual_Cost">4. โรงงานจะต้องจัดหาพลังงานตามเปอร์เซ็นต์ของพลังงานปัจจุบันเป็นอัตราเพิ่มครั้งละ 25% สำหรับแต่ละแผนกที่กำหนด</text>
+  <text id="Rabbit_Manual_Command">5. ไม่ว่า Rabbit จะถูกเรียกในแผนกใด ทีม Rabbit และกัปตันจะเป็นผู้บังคับบัญชาทั้งหมด ไม่ใช่ผู้จัดการ</text>
+  <text id="Rabbit_Manual_Clear">6. ทีม Rabbit จะถอนตัวโดยอัตโนมัติเมื่อไม่มีศัตรูเหลืออยู่ในแผนก</text>
+  <text id="Rabbit_Manual_Caution">※คำเตือน※</text>
+  <text id="Rabbit_Manual_Panic">- แผนกที่เรียกทีม Rabbit จะถูกปิดและปิดกั้นอย่างสมบูรณ์ พนักงานทุกคนที่อยู่ในแผนกปัจจุบันจะเกิดอาการตื่นตระหนกทันที</text>
+  <text id="Rabbit_Manual_Closed">- พนักงานคนใดเข้าไปในพื้นที่ดังกล่าวโดยบังเอิญจะไม่สามารถออกไปได้</text>
+  <!--Captain-->
+  <text id="Rabbit_Captain_Start_0">ปล่อยให้เป็นหน้าที่ของ Rabbit เถอะ</text>
+  <text id="Rabbit_Captain_Start_1">Rabbit มากินหญ้าแล้ว</text>
+  <text id="Rabbit_Captain_Start_2">ฮิปปี้ฮ็อป~ ถึงเวลาที่ Rabbit จะได้กินหญ้าสดแล้ว</text>
+  <text id="Rabbit_Captain_Start_Geburah">หูตั้งเชียวนะ Rabbit  นังนั่นมัน Red Mist เขียวนะ</text>
+  <text id="Rabbit_Captain_Start_Binah">จริงๆ แล้วเธอไม่ใช่ Arbiter ใช่ไหม? ถ้าใช่ โปรดทราบว่านี่ขัดต่อสัญญาของเรา</text>
+  <text id="Rabbit_Captain_Half_0">Rabbit ครึ่งหนึ่งกลับมาสู่ทุ่งหญ้าแล้ว</text>
+  <text id="Rabbit_Captain_Half_1">ทีม Rabbit หายไปครึ่งทีมแล้ว บอกเลยว่าพวกสัตว์ประหลาดในที่นี้น่ารำคาญชะมัด</text>
+  <text id="Rabbit_Captain_Half_2">เอ่อ  Rabbit ครึ่งหนึ่งพร้อมจะตายแล้วสินะ ความตายจำนวนนี้ส่วนใหญ่เห็นได้จากภารกิจสำรวจพื้นที่รอบนอก หรือเคลียร์พื้นที่ในซากปรักหักพัง</text>
+  <text id="Rabbit_Captain_Half_Geburah"> Rabbit ถูกกำจัดไปครึ่งหนึ่งแล้ว ยังมีฤทธิ์เดชเหลืออยู่อีกเหรอ</text>
+  <text id="Rabbit_Captain_Half_Binah">เดาว่าเธอคงไม่ใช่ Arbiter จริงหรอก แต่ดูเหมือนเธอจะกำลังใช้ Singularities อยู่นะ?</text>
+  <text id="Rabbit_Captain_Almost_0">มี 80% หมดสัญญาไปแล้วตลอดกาล ภารกิจในเขตชานเมืองน่าจะทำกำไรได้มากกว่างานนี้อีก</text>
+  <text id="Rabbit_Captain_Almost_1">ทีม Rabbit ของฉันหายไป 80% แล้ว ใครกันที่บ้าคิดว่าการเก็บมอนสเตอร์พวกนี้ไว้ในเมืองแทนที่จะไปอยู่นอกเขตชานเมืองเป็นความคิดที่ดี?</text>
+  <text id="Rabbit_Captain_Almost_Geburah">ตายไป 80% ด้วยน้ำมือเธอ เธอสู้สุดใจ ช่างเป็นปีศาจร้ายอะไรเช่นนี้ ถึงแม้ว่าเธอจะไม่เก่งเท่าเมื่อก่อนก็ตาม</text>
+  <text id="Rabbit_Captain_Almost_Binah">ภูติและกุญแจ พลังน่ารำคาญอะไรอย่างนี้... แล้วพวกเขาก็อ่อนแอลงด้วย!</text>
+  <text id="Rabbit_Captain_Eliminated_0">Rabbit หายไปหมดเลย เฮ้อ... ขอให้โชคดีกับสถานการณ์ที่เหลือนะ</text>
+  <text id="Rabbit_Captain_Eliminated_1">ทีม Rabbit ทั้งหมดกลับมายังทุ่งหญ้าแล้ว ภารกิจนี้ล้มเหลว</text>
+  <text id="Rabbit_Captain_Eliminated_2">พวกเขาตายหมดแล้ว ฉันขอออกเดินทางไปสำรวจนอกเมืองหรือซากปรักหักพังดีกว่ามายุ่งเกี่ยวกับที่นี่</text>
+  <text id="Rabbit_Captain_Eliminated_Geburah">Red Mist… โอ้ สักวันฉันจะฉีกกระชากหมอกอันใหม่ของเธอด้วยมือของฉันเอง…</text>
+  <text id="Rabbit_Captain_Eliminated_Binah">ฉันแน่ใจว่าคุณคงรู้อยู่แล้วว่าเรื่องจะเป็นแบบนี้ เรากำลังถอนตัวแล้ว</text>
+  <text id="Rabbit_Captain_End_0">ขอบคุณสำหรับมื้ออาหารมันอิ่มมาก</text>
+  <text id="Rabbit_Captain_End_1">เรียกหาเราอีกครั้งนะ สิ่งที่เราต้องการก็แค่หญ้าเท่านั้น</text>
+  <text id="Rabbit_Captain_End_2">ถ้าทำได้ฉันก็คงจะเข้าร่วมด้วยตัวเองเลย</text>
+  <text id="Rabbit_Captain_End_3">ภารกิจเสร็จสิ้นแล้ว เราจะลืมทุกสิ่งทุกอย่างที่เกิดขึ้นที่นี่</text>
+  <text id="Rabbit_Captain_End_Geburah">ต้องขอบคุณร่างกายแปลกๆ ของคุณ Red Mist ความแข็งแกร่งของคุณเพิ่มมากขึ้นกว่าเดิมมากๆ แม้ว่าความเชี่ยวชาญของคุณดูเหมือนจะถดถอยลงนะ</text>
+  <text id="Rabbit_Captain_End_Binah">ฉันไม่เคยคิดว่าจะมีวันที่เราจะสามารถเอาชนะได้ Arbiter</text>
+  <!--Rabbit Units
+      
+      Rabbit_Unit_{State : one or more}_{Index}
+  -->
+  <text id="Rabbit_Unit_Name">Rabbit</text>
+  <text id="Rabbit_Unit_Start_0">Rabbit มากินหญ้าแล้ว</text>
+  <text id="Rabbit_Unit_Start_1">เริ่มต้นภารกิจ</text>
+  <text id="Rabbit_Unit_Start_2">ถอนรากถอนโคนพื้นที่</text>
+  <text id="Rabbit_Unit_Start_3">แทะมันออกไปให้หมด</text>
+  <text id="Rabbit_Unit_Encounter_Officer_0">คุณคงโชคร้ายมาก</text>
+  <text id="Rabbit_Unit_Encounter_Officer_1">คุณถูกบริษัทนี้ทอดทิ้ง</text>
+  <text id="Rabbit_Unit_Encounter_Officer_2">และนี้เป็นอีกหนึ่งที่ต้องชำระล้าง</text>
+  <text id="Rabbit_Unit_Encounter_Agent_0">แม้ว่าคุณจะถืออาวุธราคาแพง แต่มันก็เป็นแค่หญ้าสำหรับ Rabbits เท่านั้น</text>
+  <text id="Rabbit_Unit_Encounter_Agent_1">คุณและฉันมีหน้าที่ที่แตกต่างกัน</text>
+  <text id="Rabbit_Unit_Encounter_Agent_2">อย่างน้อยอาวุธของคุณก็ดูมีประโยชน์</text>
+  <text id="Rabbit_Unit_Encounter_Agent_3">และนี้เป็นอีกหนึ่งที่ต้องกำจัด</text>
+  <text id="Rabbit_Unit_Encounter_Agent_4">ดูเหมือนคุณจะมีอุปกรณ์ดีๆ</text>
+  <text id="Rabbit_Unit_Encounter_Creature_TETH_0">ภัยคุกคามระดับกระจอก</text>
+  <text id="Rabbit_Unit_Encounter_Creature_TETH_1">กำจัดเป้าหมายทันที</text>
+  <text id="Rabbit_Unit_Encounter_Creature_TETH_2">นี้เรียกวอร์มอัพยังไม่ได้เลย</text>
+  <text id="Rabbit_Unit_Encounter_Creature_HE_0">ภัยคุกคามระดับปานกลาง</text>
+  <text id="Rabbit_Unit_Encounter_Creature_HE_1">อย่างกับตบนักเลงข้างถนน</text>
+  <text id="Rabbit_Unit_Encounter_Creature_HE_2">สัตว์ประหลาดอะไรประหลาดขนาดนี้</text>
+  <text id="Rabbit_Unit_Encounter_Creature_HE_3">มีสิ่งมีชีวิตแบบนี้อีกเป็นร้อยกระจัดกระจายอยู่ทั่วซากปรักหักพัง</text>
+  <text id="Rabbit_Unit_Encounter_Creature_HE_4">เราอาจจะต้องเอาจริงสักหน่อยกับเรื่องนี้</text>
+  <text id="Rabbit_Unit_Encounter_Creature_WAW_0">ภัยคุกคามระดับสูง</text>
+  <text id="Rabbit_Unit_Encounter_Creature_WAW_1">เป็นเวลานานแล้วที่เราได้ต่อสู้กับเป้าหมายที่อันตรายเช่นนี้</text>
+  <text id="Rabbit_Unit_Encounter_Creature_WAW_2">พวกเขาเอาสิ่งเหล่านี้มาจากนอกเขตหรืออะไรประมาณนั้นหรือเปล่า?</text>
+  <text id="Rabbit_Unit_Encounter_Creature_WAW_3">ทำไมไม่ใช้สิ่งเหล่านี้ใน Wing Wars?</text>
+  <text id="Rabbit_Unit_Encounter_Creature_WAW_4">โหดขนาดนี้ยังเรียกว่าเล่นอีกหรอออ?</text>
+  <text id="Rabbit_Unit_Encounter_Creature_ALEPH_0">ภัยคุกคามระดับสูง</text>
+  <text id="Rabbit_Unit_Encounter_Creature_ALEPH_1">ที่นี่มันเกิดเชี้ยไรขึ้นวะเนี่ย?</text>
+  <text id="Rabbit_Unit_Encounter_Creature_ALEPH_2">ฉันไม่คิดว่าเรื่องแบบนี้จะจัดการได้โดยเรา Rabbit เพียงลำพัง</text>
+  <text id="Rabbit_Unit_Encounter_Creature_ALEPH_3">พวกเขาบ้ามากที่กล้าจะใช้สิ่งมีชีวิตที่อยู่นอกเหนือขอบเขตขนาดนี้</text>
+  <text id="Rabbit_Unit_Encounter_Creature_ALEPH_4">ฉันคิดว่าพวกประหลาดแบบนี้จะพบเห็นได้แค่ในส่วนลึกของซากปรักหักพังเท่านั้น</text>
+  <text id="Rabbit_Unit_Panic_0">จิตเสื่อมถอยถึงขีดสุดแล้ว เริ่มการกำจัดอัตโนมัติ</text>
+  <text id="Rabbit_Unit_Panic_1">การกำจัดเริ่มขึ้นทันทีเพื่อขจัดภัยคุกคามจากมนุษย์ทั้งหมด</text>
+  <text id="Rabbit_Unit_SectorClear_0">ภารกิจเสร็จสิ้นแล้ว</text>
+  <text id="Rabbit_Unit_SectorClear_1">พวกเรากลับละ</text>
+  <text id="Rabbit_Unit_SectorClear_2">ที่นี้ไม่มีหญ้าให้กินอีกแล้ว</text>
+  <text id="Rabbit_Unit_SectorClear_3">มื้อนี้ห่วยแตกจริงๆ</text>
+</localize>

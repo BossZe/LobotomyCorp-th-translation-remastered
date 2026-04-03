@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+    <info id="300108">
+    <narration action="move">
+      #0 กำลังเดินทางไปยังห้องกักกันของ $0 เพื่อเริ่มกระบวนการทำงาน
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-09-97</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/PromiseAndFaith</portrait>
+      <name openLevel="1">
+        Old Faith and Promise
+      </name>
+      <riskLevel openLevel="1">
+        ZAYIN
+      </riskLevel>
+      <openText>
+        หัวใจที่ถูกหักหลังเหล่านั้นจมดิ่งลงสู่ห้วงลึก ค่อยๆ ถูกลืมเลือนหายไปในระเบียงเวลาที่ทอดยาวขึ้นเรื่อยๆ
+      </openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {ลูกแก้วลึกลับที่แขวนอยู่ในห้องกักกัน}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {เรารู้จักการปฏิบัติโบราณ; คำสัญญามากมายที่ถูกสร้างขึ้น และความศรัทธาที่ไม่มีที่สิ้นสุดที่ถูกวางไว้ในคำสัญญาเหล่านั้น}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {อย่างไรก็ตาม สิ่งที่พวกมันให้มาก็มีเพียงความว่างเปล่าและการหักหลัง}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {หัวใจที่ถูกหักหลังเหล่านั้นจมดิ่งลงสู่ห้วงลึก ค่อยๆ ถูกลืมเลือนไปในระเบียงเวลาที่ทอดยาวขึ้นเรื่อยๆ}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {แต่ถ้าคุณลองพยายามด้วยหัวใจที่เคร่งครัดที่ปราศจากความปรารถนาหรือความคาดหวัง คุณอาจจะได้รับรางวัลที่ไม่คาดคิด}
+      ]
+    </desc>
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">ใช้อุปกรณ์ของ Abnormality เพื่อเสริมความแข็งแกร่งให้กับอาวุธ E.G.O. ซึ่งจะใช้พลังงานที่รวบรวมได้จากหน่วยงานจำนวนเล็กน้อย</specialTip>
+      <specialTip openLevel="2" key="2">อาวุธที่เสริมความแข็งแกร่งแล้วจะมีพลังโจมตีสูงขึ้น</specialTip>
+      <specialTip openLevel="2" key="3">อย่างไรก็ตาม มีความเป็นไปได้ที่จะสูญเสีย E.G.O. ระหว่างกระบวนการเสริมความแข็งแกร่ง</specialTip>
+      <specialTip openLevel="2" key="4">อาวุธที่เสริมความแข็งแกร่งแล้วจะสูญเสียพลังของ Abnormality หลังจากวันนั้นผ่านไป</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

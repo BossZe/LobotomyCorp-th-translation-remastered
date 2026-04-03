@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+	  <info id="100000">
+		    <narration action="move">#0 กำลังเดินทางไปยังห้องกักกันของ $0 เพื่อฝึกการทำงานกับสิ่งผิดปกติ</narration>
+		    <narration action="start">[{$0 คือหุ่นฝึกซ้อมที่เชื่ออย่างจริงใจว่าตัวเองเป็นพนักงานคนหนึ่งในโรงงานของเรา}]</narration>
+		    <narration action="mid1">[{ดูเหมือนว่า $0 จะชอบผู้คน}]</narration>
+		    <narration action="mid2">[{$0 เดินวนไปรอบๆ #0 แต่ #0 ก็จดจ่ออยู่กับงานของตัวเองอย่างเต็มที่}]</narration>
+		    <narration action="mid3">[{$0 กำลังคิดเกี่ยวกับใจกลางโลก}]</narration>
+		    <narration action="mid4">[{$0 เศร้ามากที่ #0 ต้องจากไปเร็วขนาดนี้ ดูเหมือนว่ามันอยากจะตามพวกเขาไป}]</narration>
+	  </info>
+	  <observe level="4">
+		        <collection>
+			      <codeNo openLevel="0">0-00-00</codeNo>
+			      <name openLevel="1">Standard Training-Dummy Rabbit</name>
+			      <portrait openLevel="1">Sprites/Unit/creature/DummyPortrait</portrait>
+			      <riskLevel openLevel="1">TETH</riskLevel>
+			      <openText></openText>
+		</collection>
+		    <desc id="1" openLevel="1">[{สิ่งผิดปกติในรูปร่างของหุ่นฝึกซ้อมที่ใช้สำหรับฝึกผู้จัดการหน้าใหม่}]</desc>
+		    <desc id="2" openLevel="1">[{มีข่าวลือว่าสิ่งผิดปกตินี้ถูกเลือกมาใช้ในการฝึกซ้อมเนื่องจากมันเชื่องและอ่อนโยนที่สุดในบรรดาสิ่งที่เราสกัดออกมาทั้งหมด มันถูกเรียกว่าหุ่นฝึกซ้อม “กระต่าย” แต่ดูเหมือนจะไม่ชอบแครอท มันชอบผู้คน ถ้ามันหลุดออกมา มันก็แค่ตามพนักงานไปขณะที่พวกเขาออกจากห้องกักกันของมัน}]</desc>
+		    <desc id="3" openLevel="2"></desc>
+		    <desc id="4" openLevel="3"></desc>
+		    <record openLevel="1"></record>
+		    <record openLevel="2"></record>
+		    <record openLevel="3"></record>
+		    <specialTipSize size="1">
+			      <specialTip openLevel="1" key="tutorial">เมื่อทำงานประเภทปราบปรามกับ $0 แล้ว Qliphoth Counter จะลดลง</specialTip>
+		</specialTipSize>
+	</observe>
+</creature>

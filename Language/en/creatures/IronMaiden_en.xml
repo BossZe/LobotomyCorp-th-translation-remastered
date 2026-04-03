@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+    <info id="300101">
+    <narration action="move">
+      #0 กำลังเดินทางไปยังห้องกักกันของ $0 เพื่อเริ่มกระบวนการทำงาน
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-09-85</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/IronMaiden</portrait>
+      <name openLevel="1">
+        We Can Change Anything
+      </name>
+      <riskLevel openLevel="1">
+        ZAYIN
+      </riskLevel>
+      <openText>
+        ตอนนี้ทุกอย่างจะเรียบร้อยดี
+      </openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {หลังจากความนิยมของ “All-Around Helper” พุ่งสูงขึ้น “We Can Change Anything” ก็ถูกปล่อยออกมาเป็นหุ่นยนต์ลำดับที่สองในซีรีส์หุ่นยนต์สำหรับบ้านของ XX Inc.}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {ตามที่คาดหวังจากผลิตภัณฑ์ทั้งหมดของ XX Inc. มันมาพร้อมกับฟังก์ชันที่หลากหลาย}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {ลูกของคุณเป็นเด็กมีปัญหาที่ร้องไห้ตลอดเวลาใช่ไหม? เราสามารถเปลี่ยนแปลงสิ่งนั้นได้!&#13;&#10;ไม่ชอบรูปลักษณ์ของตัวเองเหรอ? อ้วนเกินไปหรือเปล่า? ผอมเกินไปไหม? เราสามารถเปลี่ยนแปลงสิ่งนั้นได้!&#13;&#10;บ้านของคุณกำลังไฟดับเพราะคุณไม่มีเงินจ่ายค่าไฟใช่ไหม? เราสามารถเปลี่ยนแปลงสิ่งนั้นได้!}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {มันง่ายมาก เพียงแค่เปิดเครื่อง ก้าวเข้าไปข้างใน และกดปุ่มเพื่อปิดมัน ตอนนี้ทุกอย่างจะเรียบร้อยดี}
+      ]
+    </desc>
+    <desc id="5" openLevel="4">
+      [
+      {เครื่องนี้จะผลิตพลังงานหลังจากพนักงานเข้าไปในนั้น เมื่อเห็นว่าเมื่อเข้าไปแล้วจะไม่มีใครออกมาอีกเลย มันคงจะสบายมากเลย}
+      ]
+    </desc>
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">การให้พนักงานเข้าไปในเครื่องจะผลิตพลังงานเมื่อเวลาผ่านไป</specialTip>
+      <specialTip openLevel="2" key="2">เมื่อพนักงานเข้าไปในเครื่องแล้ว พวกเขาจะได้รับความเสียหายประเภท RED พวกเขาจะไม่สามารถออกมาได้และจะเสียชีวิตในที่สุด</specialTip>
+      <specialTip openLevel="2" key="3">ปริมาณพลังงานที่ผลิตได้จะเพิ่มขึ้นเมื่อเวลาผ่านไป</specialTip>
+      <specialTip openLevel="2" key="4">Abnormality นี้ไม่ได้รับผลกระทบจาก Qliphoth Meltdowns</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

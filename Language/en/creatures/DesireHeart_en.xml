@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+	<info id="300001">
+		<narration action="move">
+			#0 กำลังเดินทางไปที่หน่วยกักกันของ $0 เพื่อเริ่มกระบวนการทำงาน
+		</narration>
+	</info>
+	<observe level="4">
+		<collection>
+			<codeNo openLevel="0">T-09-77</codeNo>
+			<portrait openLevel="1">Sprites/Unit/creature/DesireHeart</portrait>
+			<name openLevel="1">
+				The Heart of Aspiration
+			</name>
+			<riskLevel openLevel="1">
+				TETH
+			</riskLevel>
+			<openText>ความทะเยอทะยานที่มากเกินไปจะนำมาซึ่งความบ้าคลั่งที่ไม่จำเป็น</openText>
+		</collection>
+		<desc id="1" openLevel="0">
+			[
+			{หัวใจที่ไม่มีเจ้าของ มันยังคงเต้นต่อไปแม้จะถูกนำออกจากร่างกายแล้ว}
+			]
+		</desc>
+		<desc id="2" openLevel="1">
+			[
+			{เมื่อถูกยืม อัตราการเต้นของมันจะเพิ่มขึ้นเป็นสองเท่า ช่วยเพิ่มความแข็งแกร่งและพละกำลังของผู้ยืม}
+			]
+		</desc>
+		<desc id="3" openLevel="2">
+			[
+			{ความทะเยอทะยานที่มากเกินไปจะนำมาซึ่งความบ้าคลั่งที่ไม่จำเป็น}
+			]
+		</desc>
+		<desc id="4" openLevel="3">
+			[
+			{พนักงานที่ไม่ได้โจมตีเป้าหมายใดๆ ก่อนจะคืนหัวใจ หรือผู้ที่คืนหัวใจก่อนเวลา 30 วินาทีจะเข้าสู่สภาวะคลุ้มคลั่ง ทำการสังหารอย่างไม่สิ้นสุดด้วยความแข็งแกร่งที่เพิ่มขึ้น}
+			]
+		</desc>
+		<specialTipSize size="3">
+			<specialTip openLevel="1" key="1">ผู้ที่สวมใส่ $0 จะได้รับประโยชน์จาก HP และความเร็วการโจมตีที่เพิ่มขึ้น</specialTip>
+			<specialTip openLevel="2" key="2">หากมีคำสั่งให้คืน $0 โดยไม่มีการโจมตี พวกเขาจะเสียสติและมีแนวโน้มรุนแรงขึ้น พวกเขาจะพยายามโจมตีทุกสิ่งที่อยู่ใกล้เคียง</specialTip>
+			<specialTip openLevel="2" key="3">หากมีคำสั่งให้คืน $0 ภายใน 30 วินาที พวกเขาจะเสียสติ</specialTip>
+		</specialTipSize>
+	</observe>
+</creature>

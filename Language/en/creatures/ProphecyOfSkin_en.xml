@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<creature>
+    <info id="300103">
+    <narration action="move">
+      #0 กำลังเดินทางไปยังห้องกักกันของ $0 เพื่อเริ่มกระบวนการทำงาน
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">T-09-90</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/ProphecyOfSkin</portrait>
+      <name openLevel="1">
+        Skin Prophecy
+      </name>
+      <riskLevel openLevel="1">
+        TETH
+      </riskLevel>
+      <openText>
+        ช่วยเราเดี๋ยวนี้และตลอดไป ความจริงจะปลดปล่อยเรา
+      </openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {หนังสือศาสนาที่ดูเก่าแก่ซึ่งวางอยู่บนแท่นอ่านหนังสือแบบผอม หน้ากระดาษมากมายของมันเขียนอยู่บนกระดาษหนังเก่า}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {ผู้ศรัทธาของมันสวดภาวนาเพื่อให้ความศักดิ์สิทธิ์ของมันคงอยู่ตลอดไปโดยการหุ้มคัมภีร์ด้วยหนังมนุษย์}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {ผู้ที่เปิดหนังสือจะได้รับความรู้แจ้งถึงความจริงที่ไม่อาจจินตนาการได้ ผู้ที่เชี่ยวชาญในความจริงจะถูกเรียกโดยผู้เผยพระวจนะ การเรียกนี้ไม่สามารถปฏิเสธได้}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {ช่วยเราเดี๋ยวนี้และตลอดไป ความจริงจะปลดปล่อยเรา}
+      ]
+    </desc>
+    <specialTipSize size="4">
+      <specialTip openLevel="1" key="1">พนักงานที่อ่านหนังสือเล่มนี้จะได้รับประสบการณ์ในการเพิ่มค่า Prudence</specialTip>
+      <specialTip openLevel="2" key="2">สามารถอ่านหนังสือได้จนกว่าค่า Prudence ของคนคนหนึ่งจะถึงขีดจำกัด</specialTip>
+      <specialTip openLevel="2" key="3">ยิ่งอ่านมากเท่าไหร่ พวกเขาก็จะยิ่งอ่อนแอต่อความเสียหาย WHITE มากขึ้นเท่านั้น</specialTip>
+      <specialTip openLevel="2" key="4">พนักงานคนใดก็ตามที่ตกใจหลังจากอ่านหนังสือเล่มนี้จะเสียชีวิตทันที</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

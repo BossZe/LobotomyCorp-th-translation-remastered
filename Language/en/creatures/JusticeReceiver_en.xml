@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<creature>
+    <info id="300107">
+    <narration action="move">
+      #0 กำลังเดินทางไปยังห้องกักกันของ $0 เพื่อเริ่มกระบวนการทำงาน
+    </narration>
+  </info>
+  <observe level="4">
+    <collection>
+      <codeNo openLevel="0">O-09-96</codeNo>
+      <portrait openLevel="1">Sprites/Unit/creature/JusticeReceiver</portrait>
+      <name openLevel="1">
+        Behavior Adjustment
+      </name>
+      <riskLevel openLevel="1">
+        TETH
+      </riskLevel>
+      <openText>ในที่สุดสติปัญญาก็สูญเสียความหมายทั้งหมดไปเมื่อพวกเขาแม้แต่จะลืมวิธีที่จะดำรงอยู่</openText>
+    </collection>
+    <desc id="1" openLevel="0">
+      [
+      {อุปกรณ์อิเล็กทรอนิกส์ที่มีสัญลักษณ์ลึกลับสลักอยู่}
+      ]
+    </desc>
+    <desc id="2" openLevel="1">
+      [
+      {มันจะปรับเปลี่ยนทุกคนให้กลายเป็นคนชอบธรรม ไม่ว่าพวกเขาจะชั่วร้าย เลวทราม และหยิ่งยโสแค่ไหนก็ตาม}
+      ]
+    </desc>
+    <desc id="3" openLevel="2">
+      [
+      {อย่างไรก็ตาม ผู้ใช้จะพึ่งพาอุปกรณ์นี้มากเกินไปและสูญเสียความสามารถในการคิดด้วยตัวเองทั้งหมด}
+      ]
+    </desc>
+    <desc id="4" openLevel="3">
+      [
+      {ในที่สุดสติปัญญาก็สูญเสียความหมายทั้งหมดไปเมื่อพวกเขาแม้แต่จะลืมวิธีที่จะดำรงอยู่}
+      ]
+    </desc>
+    <specialTipSize size="3">
+      <specialTip openLevel="1" key="1">ค่าสถานะ Justice จะเพิ่มขึ้นอย่างมากเมื่อสวมใส่ $0 อย่างไรก็ตาม ค่าสถานะ Prudence ทั้งหมดจะลดลงในเวลาเดียวกัน</specialTip>
+      <specialTip openLevel="2" key="2">ผู้สวมใส่จะเข้าสู่ภาวะตื่นตระหนกหากถูกสั่งให้ส่งคืน $0 ภายใน 30 วินาทีหลังจากสวมใส่ และจะเสียชีวิตในไม่ช้าหลังจากแสดงพฤติกรรมผิดปกติ</specialTip>
+      <specialTip openLevel="2" key="3">หาก SP ของผู้สวมใส่เหลือ 0 ในขณะที่สวมใส่ $0 พวกเขาจะเสียชีวิตทันที</specialTip>
+    </specialTipSize>
+  </observe>
+</creature>

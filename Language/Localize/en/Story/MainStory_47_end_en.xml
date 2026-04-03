@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<localize xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <text id="day47_abelGameOver_1">ผู้ที่ไม่เห็นคุณค่าของการเสียสละไม่มีสิทธิ์ที่จะก้าวไปข้างหน้า</text>
+  <text id="day47_abelGameOver_2">ผมไม่สามารถเปิดประตูให้ใครที่ยังไม่พร้อมได้</text>
+  <text id="day47_abelGameOver_3">คุณต้องหยุดอยู่แค่นี้</text>
+  <text id="day47_abelGameOver_4">ได้โปรดกลับหลังหัน</text>
+  <text id="day47_abelGameOver_5">มันจะไม่ยากเลย ก้าวเดินของคุณจะเบาราวกับขนนกเมื่อคุณละทิ้งทุกอย่างที่คุณเคยแบกรับ</text>
+  <text id="day47_abelGameOver_6">เราจะมาพบกันที่นี่อีกครั้ง เมื่อคุณพร้อมแล้ว</text>
+  <text id="day47_abelGameOver_7">ถึงแม้ผมจะไม่แน่ใจว่าโอกาสที่เราจะได้พบกันอีกครั้งจะมาถึงหรือไม่ก็ตาม</text>
+</localize>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localize>
+  <!-- Default -->
+  <text id="Tooltip@Default">ไม่ทราบ</text>
+  <!-- Deploy UI -->
+  <text id="Tooltip_ManagementPart@UpFloor">ขยับไปชั้นบน</text>
+  <text id="Tooltip_ManagementPart@DownFloor">ขยับไปชั้นล่าง</text>
+  <text id="Tooltip_ManagementPart@Manual">เปิดคู่มือ</text>
+  <text id="Tooltip_ManagementPart@Ordeal">ระดับสูงสุดของบททดสอบที่จะปรากฏในวันนี้&#13;&#10;บททดสอบจะปรากฏขึ้นเมื่อวันทำงานดำเนินไป</text>
+  <text id="Tooltip_ManagementPart@LOB">นี้คือยอดคงเหลือ LOB ของคุณตอนนี้&#13;&#10;คุณสามารถใช้ LOB เพื่อจ้างและเสริมกำลังพนักงาน</text>
+  <text id="Tooltip_ManagementPart@EGOList">เปิดรายการ E.G.O List.</text>
+  <text id="Tooltip_ManagementPart@Employment">จ้างพนักงานใหม่&#13;&#10;ราคาขั้นต่ำเริ่มที่ 1 LOB.</text>
+  <text id="Tooltip_ManagementPart@Sefira_Function">ดูสวัสดิการของแผนก</text>
+  <text id="Tooltip_ManagementPart@Sefira_Description">ดูคำอธิบายของแผนก</text>
+  <text id="Tooltip_ManagementPart@Sefira_Research">ดูงานวิจัยของแผนกที่ปลดล็อคแล้ว</text>
+  <text id="Tooltip_ManagementPart@Creature_Encyclopedia">ดูสารานุกรม Abnormality&#13;&#10;Abnormality ที่ไม่มีการสังเกตจะแสดงด้วยเครื่องหมายคำถาม (?)</text>
+  <text id="Tooltip_ManagementPart@Mission">ภารกิจพวกนี้สามารถทำให้สำเร็จได้ในระหว่างวันทำงาน&#13;&#10;การทำภารกิจให้สำเร็จจะปลดล็อคโครงการวิจัยใหม่ได้</text>
+  <text id="Tooltip_ManagementPart@Sefira_Boss">เปิดปฏิการระงับแกนกลางของ Sephirah &#13;&#10;คลิกอีกครั้งจะปิดการใช้งานและอนุญาตให้มีการส่งพนักงานไปยังแผนกต่างๆ</text>
+  <!-- Agent Information UI -->
+  <text id="Tooltip_Agent@EquippedWeapon">อาวุธยุทโธปกรณ์ E.G.O ที่กำลังติดตั้งขณะนี้</text>
+  <text id="Tooltip_Agent@EquippedWeapon_Level">เกรด</text>
+  <text id="Tooltip_Agent@EquippedWeapon_Type">ประเภทการโจมตี</text>
+  <text id="Tooltip_Agent@EquippedWeapon_Damage">ดาเมจ</text>
+  <text id="Tooltip_Agent@EquippedArmor">เครื่องแบบป้องกัน E.G.O ที่กำลังติดตั้งขณะนี้</text>
+  <text id="Tooltip_Agent@EquippedArmor_Level">เกรด</text>
+  <text id="Tooltip_Agent@EquippedArmor_Defence_R">ค่าป้องกันสี RED: {0}</text>
+  <text id="Tooltip_Agent@EquippedArmor_Defence_W">ค่าป้องกันสี WHITE: {0}</text>
+  <text id="Tooltip_Agent@EquippedArmor_Defence_B">ค่าป้องกันสี BLACK: {0}</text>
+  <text id="Tooltip_Agent@EquippedArmor_Defence_P">ค่าป้องกันสี PALE: {0}</text>
+  <text id="Tooltip_Agent@FortitudeLevel">ระดับ Fortitude : {0};&#13;&#10;เพิ่มขึ้นเมื่อทำการทำงาน&#13;&#10;ทดสอบสัญชาตญาณ</text>
+  <text id="Tooltip_Agent@PrudenceLevel">ระดับ Prudence : {0};&#13;&#10;เพิ่มขึ้นเมื่อทำการทำงาน&#13;&#10;ทดสอบปัญญา</text>
+  <text id="Tooltip_Agent@TemperanceLevel">ระดับ Temperance : {0};&#13;&#10;เพิ่มขึ้นเมื่อทำการทำงาน&#13;&#10;ทดสอบความลุ่มหลง</text>
+  <text id="Tooltip_Agent@WorkProb">เพิ่มอัตราทำงานสำเร็จ {0}%</text>
+  <text id="Tooltip_Agent@WorkSpeed">เพิ่มความเร็วในการทำงาน {0}%</text>
+  <text id="Tooltip_Agent@JusticeLevel">ระดับ Justice : {0};&#13;&#10;เพิ่มขึ้นเมื่อทำการทำงาน&#13;&#10;ทดสอบความอดกลั้น</text>
+  <text id="Tooltip_Agent@MoveSpeed">เพิ่มความเร็วเคลื่อนที่ {0}%.</text>
+  <text id="Tooltip_Agent@AttackSpeed">เพิ่มความเร็วการโจมตี {0}%.</text>
+  <text id="Tooltip_Agent@Gift">ดู E.G.O Gifts ของพนักงาน</text>
+  <text id="Tooltip_Agent@Reinforcement">เสริมความแข็งแกร่งให้กับพนักงานที่เลือก&#13;&#10;จำเป็นต้องใช้ LOB</text>
+  <!-- Agent Employment & Reinforcement UI -->
+  <text id="Tooltip_Agent@Cancel_Employment">ยกเลิกการจ้างพนักงาน</text>
+  <text id="Tooltip_Agent@Cancel_Reinforcement">ยกเลิกการเสริมความแข็งแกร่งให้พนักงาน</text>
+  <text id="Tooltip_Agent@Confirm_Employment">ยืนยันการจ้างพนักงาน</text>
+  <text id="Tooltip_Agent@Confirm_Reinforcement">ยืนยันการเสริมความแข็งแกร่งให้พนักงาน</text>
+  <text id="Tooltip_Agent@LOB_Own">ยอดคงเหลือ LOB</text>
+  <text id="Tooltip_Agent@LOB_Employment">จำนวน LOB ที่ใช้จ้าง</text>
+  <text id="Tooltip_Agent@LOB_Lack">LOB ไม่เพียงพอ</text>
+  <text id="Tooltip_Agent@Upgrade_Value">เพิ่มระดับค่าสถานะของพนักงาน&#13;&#10;การกระทำนี้จะเพิ่มราคา LOB</text>
+  <text id="Tooltip_Agent@Downgrade_Value">ลดระดับค่าสถานะของพนักงาน</text>
+  <text id="Tooltip_Agent@Change_Appearance">ปรับแต่งรูปลักษณ์ของพนักงาน&#13;&#10;การกระทำนี้จะเพิ่มราคาการจ้างงาน 1 LOB</text>
+  <!-- E.G.O List UI -->
+  <text id="Tooltip_EGO@WeaponList">ดูรายชื่ออาวุธยุทโธปกรณ์ E.G.O.</text>
+  <text id="Tooltip_EGO@ArmorList">ดูรายชื่อเครื่องแบบป้องกัน E.G.O.</text>
+  <text id="Tooltip_EGO@Upfloor_Agents">ดูรายชื่อพนักงานชั้นบน</text>
+  <text id="Tooltip_EGO@Midfloor_Agents">ดูรายชื่อพนักงานชั้นกลาง</text>
+  <text id="Tooltip_EGO@Downfloor_Agents">ดูรายชื่อพนักงานชั้นล่าง</text>
+  <text id="Tooltip_EGO@ZAYIN">ดู E.G.O. เกรด ZAYIN</text>
+  <text id="Tooltip_EGO@TETH">ดู E.G.O. เกรด TETH</text>
+  <text id="Tooltip_EGO@HE">ดู E.G.O. เกรด HE</text>
+  <text id="Tooltip_EGO@WAW">ดู E.G.O. เกรด WAW</text>
+  <text id="Tooltip_EGO@ALEPH">ดู E.G.O. เกรด ALEPH</text>
+  <text id="Tooltip_EGO@EquippedWeapon">อาวุธยุทโธปกรณ์ E.G.O ที่กำลังติดตั้งขณะนี้</text>
+  <text id="Tooltip_EGO@EquippedWeapon_Level">เกรด</text>
+  <text id="Tooltip_EGO@EquippedWeapon_Type">ประเภทการโจมตี</text>
+  <text id="Tooltip_EGO@EquippedWeapon_Damage">ดาเมจ</text>
+  <text id="Tooltip_EGO@EquippedArmor">เครื่องแบบป้องกัน E.G.O ที่กำลังติดตั้งขณะนี้</text>
+  <text id="Tooltip_EGO@EquippedArmor_Level">เกรด</text>
+  <text id="Tooltip_EGO@EquippedArmor_Defence_R">ค่าป้องกันสี RED</text>
+  <text id="Tooltip_EGO@EquippedArmor_Defence_W">ค่าป้องกันสี WHITE</text>
+  <text id="Tooltip_EGO@EquippedArmor_Defence_B">ค่าป้องกันสี BLACK</text>
+  <text id="Tooltip_EGO@EquippedArmor_Defence_P">ค่าป้องกันสี PALE</text>
+  <text id="Tooltip_EGO@EquippedGift">E.G.O Gifts ที่ได้รับ</text>
+  <text id="Tooltip_EGO@EquippedGift_Desc">ดูรายละเอียดของ E.G.O.</text>
+  <!-- Management : Isolation Room -->
+  <text id="Tooltip_IsolateRoom@RiskLevel">ระดับความอันตราย</text>
+  <text id="Tooltip_IsolateRoom@QliphothCounter">Qliphoth Counter</text>
+  <text id="Tooltip_IsolateRoom@ActivateInfo">เปิดสารานุกรม Abnormality</text>
+  <text id="Tooltip_IsolateRoom@UniquePE">Unique PE-Boxes</text>
+  <text id="Tooltip_IsolateRoom@GeneratedPE">จำนวน PE-Boxes ผลิตจากงานล่าสุด</text>
+  <text id="Tooltip_IsolateRoom@CurGeneratedPE">E-Boxes ทั้งหมดที่ผลิดขึ้นจากงานล่าสุด</text>
+  <text id="Tooltip_IsolateRoom@ReduceProb">อัตราความสำเร็จในการทำงานลดลง {0}%</text>
+  <text id="Tooltip_IsolateRoom@Overload">[Qliphoth Overload]</text>
+  <text id="Tooltip_IsolateRoom@AllAgentsDead">[พนักงานในแผนกทั้งหมดเสียชีวิต]</text>
+  <!-- Management Part : Main Sefira Top UI -->
+  <text id="Tooltip_Sefira@RecoveroGauge">หลอดการฟื้นฟูของแผนก&#13;&#10;เมื่อใดก็ตามที่หลอดนี้เต็ม ค่า HP และ SP ของพนักงานที่ประจำอยู่ในห้องหลักของแผนกจะได้รับการรักษา</text>
+  <text id="Tooltip_Sefira@ReturnAgents">เรียกพนักงานทั้งหมดกลับไปที่ห้องหลักของแผนก</text>
+  <!-- Management Part : GameStatusUI-->
+  <text id="Tooltip_GameStatus@GoalValue">โควต้า PE-Box วันนี้</text>
+  <text id="Tooltip_GameStatus@QliphothGauge">หลอด Qliphoth Meltdown</text>
+  <text id="Tooltip_GameStatus@QliphothLevel">ระดับ Qliphoth Meltdown</text>
+  <text id="Tooltip_GameStatus@QliphothRoom">จำนวนห้องขังที่จะได้รับผลกระทบจากครั้งต่อไปของ Qliphoth Meltdown</text>
+  <text id="Tooltip_GameStatus@QliphothOrdeal">บททดสอบจะปรากฏใน Qliphoth Meltdown ครั้งต่อไป</text>
+  <text id="Tooltip_GameStatus@Pause">ปุ่มหยุดเกม&#13;&#10;คุณสามารถหยุดชั่วคราวได้โดยการกด Spacebar</text>
+  <text id="Tooltip_GameStatus@SpeedLv1">เล่นเกมนี้ด้วยความเร็วปกติ</text>
+  <text id="Tooltip_GameStatus@SpeedLv2">เล่นเกมนี้ด้วยความเร็ว x1.5&#13;&#10;Q: ลดความเร็ว / E: เพิ่มความเร็ว</text>
+  <text id="Tooltip_GameStatus@SpeedLv3">เล่นเกมนี้ด้วยความเร็ว x2 speed&#13;&#10;Q: ลดความเร็ว / E: เพิ่มความเร็ว</text>
+  <text id="Tooltip_GameStatus@MissionList">รายการภารกิจที่สามารถทำได้ในระหว่างวันทำงาน</text>
+  <!-- Management Part : Worker Command Window : Manage Creature -->
+  <text id="Tooltip_WorkerCommand_Management@CreatureCode">รหัสระบุตัวตน</text>
+  <text id="Tooltip_WorkerCommand_Management@RiskLevel">ระดับความอันตราย</text>
+  <text id="Tooltip_WorkerCommand_Management@MaximumBox">จำนวน E-Box ทั้งหมด (PE และ NE) ที่จะผลิต</text>
+  <text id="Tooltip_WorkerCommand_Management@CreatureFeeling">ขอบเขตผลลัพธ์ของการทำงานโดยนับตามจำนวน PE-Box</text>
+  <text id="Tooltip_WorkerCommand_Management@WorkDmgType">ประเภทของดาเมจที่สร้างกับพนักงานเมื่อผลิดได้ NE-Box ต่อครั้ง</text>
+  <text id="Tooltip_WorkerCommand_Management@WorkDmgValue">จำนวนดาเมจที่สร้างกับพนักงานเมื่อผลิดได้ NE-Box ต่อครั้ง</text>
+  <text id="Tooltip_WorkerCommand_Management@AgentCurrentHP">HP ปัจจุบัน</text>
+  <text id="Tooltip_WorkerCommand_Management@AgentCurrentMental">SP ปัจจุบัน</text>
+  <text id="Tooltip_WorkerCommand_Management@AgentFortitude">ระดับ Fortitude: {0};</text>
+  <text id="Tooltip_WorkerCommand_Management@AgentPrudence">ระดับ Prudence: {0};</text>
+  <text id="Tooltip_WorkerCommand_Management@AgentTemperance">ระดับ Temperance: {0};</text>
+  <text id="Tooltip_WorkerCommand_Management@AgentJustice">ระดับ Justice: {0};</text>
+  <text id="Tooltip_WorkerCommand_Management@OtherSefira">ดูรายชื่อพนักงานจากแผนกอื่นๆ&#13;&#10;(คุณยังสามารถใช้ล้อเมาส์ในรายการตัวแทนเพื่อนำทางได้)</text>
+  <!-- Management Part : Worker Command Window : Suppress Creature -->
+  <text id="Tooltip_WorkerCommand_Suppression@CreatureCode">รหัสระบุตัวตน</text>
+  <text id="Tooltip_WorkerCommand_Suppression@RiskLevel">ระดับความอันตราย</text>
+  <text id="Tooltip_WorkerCommand_Suppression@AttackType">ประเภทการโจมตีของ Abnormality</text>
+  <text id="Tooltip_WorkerCommand_Suppression@DefenseType">ประเภทการป้องกันของ Abnormality</text>
+  <text id="Tooltip_WorkerCommand_Suppression@R">RED</text>
+  <text id="Tooltip_WorkerCommand_Suppression@W">WHITE</text>
+  <text id="Tooltip_WorkerCommand_Suppression@B">BLACK</text>
+  <text id="Tooltip_WorkerCommand_Suppression@P">PALE</text>
+  <text id="Tooltip_WorkerCommand_Suppression@AgentCurrentHP">HP ปัจจุบัน</text>
+  <text id="Tooltip_WorkerCommand_Suppression@AgentCurrentMental">SP ปัจจุบัน</text>
+  <text id="Tooltip_WorkerCommand_Suppression@DefenseR">RED: {0}</text>
+  <text id="Tooltip_WorkerCommand_Suppression@DefenseW">WHITE: {0}</text>
+  <text id="Tooltip_WorkerCommand_Suppression@DefenseB">BLACK: {0}</text>
+  <text id="Tooltip_WorkerCommand_Suppression@DefenseP">PALE: {0}</text>
+  <text id="Tooltip_WorkerCommand_Suppression@OtherSefira">ดูรายชื่อพนักงานจากแผนกอื่นๆ&#13;&#10;(คุณยังสามารถใช้ล้อเมาส์ในรายการตัวแทนเพื่อนำทางได้)</text>
+  <!-- Management Part : Bullet UI -->
+  <text id="Tooltip_Bullet@TotalCounts">จำนวนทั้งหมดของกระสุนของผู้จัการ&#13;&#10;จะถูกเติมเมื่อเกิด Qliphoth Meltdown</text>
+  <text id="Tooltip_Bullet@RecoverHP">กระสุนฟื้นฟู HP</text>
+  <text id="Tooltip_Bullet@RecoveMental">กระสุนฟื้นฟู SP</text>
+  <text id="Tooltip_Bullet@ProtectRED">โล่ป้องกันประเภท RED Shield</text>
+  <text id="Tooltip_Bullet@ProtectWHITE">โล่ป้องกันประเภท WHITE Shield</text>
+  <text id="Tooltip_Bullet@ProtectBLACK">โล่ป้องกันประเภท BLACK Shield</text>
+  <text id="Tooltip_Bullet@ProtectPALE">โล่ป้องกันประเภท PALE Shield</text>
+  <text id="Tooltip_Bullet@Slow">กระสุนสกัดความเคลื่อนไหว</text>
+  <text id="Tooltip_Bullet@ExecuteAgent">กระสุนพิพากษาพนักงาน</text>
+  <!-- Management Part : Rabbit UI -->
+  <text id="Tooltip_Rabbit@RabbitProtocol">โทรเรียกทีม the Rabbit</text>
+  <!-- Creature Info -->
+  <text id="Tooltip_CreatureInfo@UniquePE">จำนวน Unique PE-Boxes ของ Abnormality ตัวนี้&#13;&#10;จำนวน Unique PE-Boxes จะเพิ่มขึ้นตามจำนวน PE-Boxes ที่ผลิตในตอนท้ายของการทำงาน</text>
+  <text id="Tooltip_CreatureInfo@BasicInfo">ปลดล็อคข้อมูลพื้นฐานของ Abnormality ตัวนี้&#13;&#10;ราคา {0} Unique PE-Boxes</text>
+  <text id="Tooltip_CreatureInfo@OpenManagement">ปลดล็อคแนวทางปฏิบัติเกี่ยวกับ Abnormality ตัวนี้&#13;&#10;ราคา {0} Unique PE-Boxes</text>
+  <text id="Tooltip_CreatureInfo@NeedPreviousManagement">ต้องปลดล็อคแนวปฏิบัติก่อนหน้านี้ก่อน</text>
+  <text id="Tooltip_CreatureInfo@OpenInstinct">ปลดล็อคข้อมูลความเข้ากันได้ของ Abnormality กับงานทดสอบสัญชาตญาณ&#13;&#10;ราคา: {0} Unique PE-Boxes</text>
+  <text id="Tooltip_CreatureInfo@OpenInsight">ปลดล็อคข้อมูลความเข้ากันได้ของ Abnormality กับงานทดสอบปัญญา&#13;&#10;ราคา: {0} Unique PE-Boxes</text>
+  <text id="Tooltip_CreatureInfo@OpenAttachment">ปลดล็อคข้อมูลความเข้ากันได้ของ Abnormality กับงานทดสอบความลุ่มหลง&#13;&#10;ราคา: {0} Unique PE-Boxes</text>
+  <text id="Tooltip_CreatureInfo@OpenRepression">ปลดล็อคข้อมูลความเข้ากันได้ของ Abnormality กับงานทดสอบความอดกลั้น&#13;&#10;ราคา: {0} Unique PE-Boxes</text>
+  <text id="Tooltip_CreatureInfo@OpenEscape">ปลดล็อคข้อมูลเกียวกับการหลบหนีของ Abnormality ตัวนี้&#13;&#10;ราคา: {0} Unique PE-Boxes</text>
+  <text id="Tooltip_CreatureInfo@GiftInfo">ตัวแทนมีโอกาสที่จะได้รับ E.G.O Gift ของ Abnormality ตัวนี้ หลังจากทำงานเสร็จสิ้น</text>
+  <text id="Tooltip_CreatureInfo@WeaponInfo">อาวุธ E.G.O ที่สามารถผลิตได้จาก Abnormality ตัวนี้</text>
+  <text id="Tooltip_CreatureInfo@MakeWeapon">ผลิคอาวุธ E.G.O&#13;&#10;ราคา: {0} Unique PE-Boxes</text>
+  <text id="Tooltip_CreatureInfo@SuitInfo">ชุด E.G.O ที่สามารถผลิตได้จาก Abnormality ตัวนี้</text>
+  <text id="Tooltip_CreatureInfo@MakeSuit">ผลิคอาวุธ E.G.O&#13;&#10;ราคา: {0} Unique PE-Boxes</text>
+  <text id="Option@Tooltip">หน้าต่างคำอธิบายช่วยเหลือ</text>
+  <text id="Tooltip_Gift_Lock">&lt;เปิดการล็อค E.G.O Gift&gt;&#13;&#10;(มีให้สำหรับพนักงานที่สูงกว่าระดับ 4)&#13;&#10;E.G.O Gift ในช่องนี้จะไม่ถูกแทนที่ด้วยของ Gift ในขณะที่ถูกล็อค</text>
+  <text id="Tooltip_Gift_Locked">&lt;ปิดการล็อค E.G.O Gift&gt;&#13;&#10;The E.G.O Gift ในช่องนี้อาจจะมีการแทนที่ด้วย Gift ชิ้นใหม่</text>
+  <text id="Tooltip_Gift_Display">&lt;เปิดการมองเห็น E.G.O Gift&gt;&#13;&#10;E.G.O Gift นี้จะปรากฏให้เห็นชัดเจน</text>
+  <text id="Tooltip_Gift_Disappear">&lt;ปิดการมองเห็น E.G.O Gift&gt;&#13;&#10;(มีให้สำหรับพนักงานที่สูงกว่าระดับ 4)&#13;&#10;E.G.O Gift ในช่องนี้จะมองไม่เห็น อย่างไรก็ตาม บัฟและดีบัฟยังคงทำงานอยู่</text>
+</localize>
