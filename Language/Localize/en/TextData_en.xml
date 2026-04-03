@@ -216,7 +216,7 @@
   <text id="TitleEndScene@AI">เปิดใช้งานชุดคำสั่ง AI</text>
   <text id="TitleEndScene@Enkephalin">กำลังสร้างแบบฟอร์มของ Enkephalin</text>
   <text id="TitleEndScene@VoltCheck">ตรวจสอบระบบจ่ายพลังงาน</text>
-  <text id="TitleEndScene@SeedOfLight">ดำเนินการตามแผน: เมล็ดพันธุ์แห่งความหวัง</text>
+  <text id="TitleEndScene@SeedOfLight">ดำเนินการตามแผน: เมล็ดพันธุ์แห่งแสงสว่าง</text>
   <text id="ContinueScene@Booting">กำลังรีสตาร์ทระบบ</text>
   <text id="ContinueScene@Archive">กำลังเชื่อมต่อคลังบันทึกความทรงจำ</text>
   <text id="ContinueScene@Sefira">กำลังดำเนินระเบียบ&#13;&#10;ปฏิบัติการ Sephirot</text>
